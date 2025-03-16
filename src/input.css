@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+}
+
+@layer components {
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  .carousel {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@theme {
+  --color-primary: #00adb5;
+}
+
+@layer components {
+  .inner-brand a {
+    @apply flex items-center mx-1 lg:mx-5 my-5 gap-1 rounded-md font-semibold text-black text-lg italic shadow-md bg-white cursor-pointer hover:bg-primary hover:text-white hover:scale-x-105 hover:scale-y-110 transition origin-left scale-x-100 duration-200 ease-in-out;
+  }
+
+  .inner-brand span {
+    @apply bg-white p-1.5 rounded-full shadow-md;
+  }
+
+  .inner-industry a {
+    @apply bg-white flex items-center lg:mx-5 my-7 gap-1 rounded-md font-semibold text-black text-lg italic cursor-pointer shadow-md hover:bg-primary hover:text-white hover:scale-x-105 hover:scale-y-110 transition origin-left scale-x-100 duration-200 ease-in-out;
+  }
+
+  .inner-industry span {
+    @apply bg-white p-1.5 rounded-full shadow-md;
+  }
+
+  .inner-application a {
+    @apply bg-white flex items-center lg:mx-5 my-5 gap-1 rounded-md font-semibold text-black text-lg italic cursor-pointer shadow-md hover:bg-primary hover:text-white hover:scale-x-105 hover:scale-y-110 transition origin-left scale-x-100 duration-200 ease-in-out;
+  }
+
+  .inner-application span {
+    @apply bg-white p-1.5 rounded-full shadow-md;
+  }
+
+  .search-form input {
+    @apply outline-none w-full text-sm placeholder:italic text-black font-medium;
+  }
+
+  .card-blog {
+    @apply bg-white overflow-hidden;
+  }
+
+  .content-blog {
+    @apply self-stretch justify-start text-xs;
+  }
+
+  .button-details-blog {
+    @apply items-center gap-2.5 inline-flex pt-5 font-medium text-xs text-primary;
+  }
+}
