@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body {
-  margin: 0;
+  font-family: "Roboto";
 }
 
 @layer components {
@@ -57,5 +57,9 @@ body {
 
   .button-details-blog {
     @apply items-center gap-2.5 inline-flex pt-5 font-medium text-xs text-primary;
+  }
+
+  .card-desc-career {
+    @apply text-base text-gray-500;
   }
 }

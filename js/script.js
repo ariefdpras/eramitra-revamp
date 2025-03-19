@@ -1,3 +1,8 @@
+//button see detail career
+function seeDetails() {
+  window.location.href = "career-desc.html";
+}
+
 // //Hover Navbar2
 
 // //Brand
