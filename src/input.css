@@ -20,11 +20,11 @@ body {
 
 @layer components {
   .inner-brand a {
-    @apply flex items-center mx-1 lg:mx-5 my-5 gap-1 rounded-md font-semibold text-black text-lg italic shadow-md bg-white cursor-pointer hover:bg-primary hover:text-white hover:scale-x-105 hover:scale-y-110 transition origin-left scale-x-100 duration-200 ease-in-out;
+    @apply flex items-center gap-[8px] font-medium text-gray-900 text-xl leading-7 my-[24px];
   }
 
   .inner-brand span {
-    @apply bg-white p-1.5 rounded-full shadow-md;
+    @apply bg-white p-0.5 rounded-full shadow-md;
   }
 
   .inner-industry a {
