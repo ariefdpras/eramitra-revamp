@@ -1,997 +1,2193 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="keywords"
-      content="era, mitra, perdana, linseis, micromeritics, metone, piccaro, kruss, pp system, milwaukee, acoem, quantum design, nexopart, hermle, hel, nabertherm, kern, procept, mechatech, jp selecta, labtech, otsuka, industry, brands, laboratory, instrument, application, lab"
-    />
-    <title>PT. Era Mitra Perdana</title>
+    <title>PT Era Mitra Perdana</title>
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- logo web -->
     <link rel="icon" type="image/png" sizes="32x32" href="img/emp.png" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="src/output.css" rel="stylesheet" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <!-- feather icon -->
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <!-- tailwind CSS -->
+    <link href="src/output.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- Navbar Start -->
-    <header
-      class="absolute top-0 left-0 w-full flex flex-col items-center z-10"
-    >
-      <div class="container-navbar w-full bg-primary">
-        <div class="p-2 flex justify-between items-center relative">
-          <div class="flex md:ml-6 lg:ml-16 text-white gap-1 lg:gap-3">
-            <span
-              class="flex items-center justify-center m-1 gap-1 text-xs md:text-sm"
+    <!-- <style>
+      * {
+        border: 1px solid red;
+      }
+    </style> -->
+    <header>
+      <div
+        class="w-full px-20 py-5 bg-teal-500 inline-flex justify-start items-center gap-2.5"
+      >
+        <div class="w-[504px] flex justify-start items-center gap-4">
+          <div class="flex justify-start items-center gap-3">
+            <div class="w-4 h-4 relative overflow-hidden">
+              <div
+                class="w-4 h-4 left-[0.02px] top-0 flex items-center justify-center absolute bg-Background-color-primary"
+              >
+                <i class="fa-solid fa-phone text-white"></i>
+              </div>
+            </div>
+            <div
+              class="w-28 justify-start text-Background-color-primary text-white text-sm font-normal leading-tight"
             >
-              <i data-feather="phone" class="w-[20px]"></i>
-              <p>+62 - 21 - 86612458</p>
-            </span>
-            <span
-              class="flex items-center justify-center m-1 gap-1 text-xs lg:text-sm"
+              <p>+62-21-86612458</p>
+            </div>
+          </div>
+          <div class="flex justify-start items-start gap-1.5">
+            <div class="w-4 h-4 relative overflow-hidden">
+              <div
+                class="w-3.5 h-[4.96px] left-[0.82px] top-[5px] flex items-center absolute bg-primary"
+              >
+                <i class="fa-solid fa-envelope text-white"></i>
+              </div>
+            </div>
+            <div
+              class="w-32 justify-start text-Background-color-primary text-sm text-white font-normal leading-tight"
             >
-              <i data-feather="mail" class="w-[20px]"></i>
               <p>sales@eramitra.com</p>
-            </span>
-            <span
-              class="flex items-center justify-center m-1 gap-1 text-xs lg:text-sm"
-            >
-              <i data-feather="clock" class="w-[20px]"></i>
-              <p id="day">Mon - Fri : 8.00am - 5.00pm</p>
-            </span>
-          </div>
-          <nav
-            id="nav-menu"
-            class="hidden absolute text-white mx-8 right-0 top-0 max-w-[250px] lg:block lg:static lg:max-w-full lg:shadow-none"
-          >
-            <ul class="block lg:flex">
-              <style>
-                li {
-                  font-family: sans-serif;
-                }
-              </style>
-              <li class="group">
-                <a href="about.html" class="py-2 mx-7 flex">About Us</a>
-              </li>
-              <li class="group">
-                <a href="#" class="py-2 mx-7 flex">News & Info</a>
-              </li>
-              <li class="group">
-                <a href="career.html" class="py-2 mx-7 flex">Career</a>
-              </li>
-              <li class="group">
-                <a href="#" class="py-2 mx-7 flex">Contact Us</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-      <div class="flex w-full p-5 justify-between">
-        <div class=" ml-[3%]">
-          <a href="index.html">
-            <img
-              src="img/Primary (Full Color).png"
-              width="220px"
-              height="180px"
-              alt="home"
-            />
-          </a>
-        </div>
-        <div class="second-navbar hidden lg:flex gap-6 mx-8">
-        <!-- Brand -->
-        <div class="cursor-pointer group">
-          <div
-            class="hover:scale-x-105 hover:scale-y-105 transition origin-left scale-x-100 duration-200 ease-in-out"
-          >
-            <a href="#" class="font-semibold text-lg text-primary">Brand</a>
-          </div>
-          <div
-            class="invisible absolute z-50 flex w-full flex-wrap left-0 bg-white shadow-xl mt-0.5 py-1 px-4 text-gray-800 group-hover:visible"
-          >
-            <div class="inner-brand w-1/2 xl:w-1/4">
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Linseis
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Micromeritics
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Piccaro
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                H.e.l
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Otsuka Electronics
-              </a>
-            </div>
-            <div class="inner-brand w-1/2 xl:w-1/4">
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Hermle
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                JP Selecta
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Kern
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Kruss GmBH
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                PP System
-              </a>
-            </div>
-            <div class="inner-brand w-1/2 xl:w-1/4">
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Kruss Optronic
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                LabTech
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                MechaTech
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                MetOne Instrument
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Quantum Design
-              </a>
-            </div>
-            <div class="inner-brand w-1/2 xl:w-1/4">
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Milwaukee
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                NEXOPART
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Nabertherm
-              </a>
             </div>
           </div>
-        </div>
-        <!-- Industry -->
-        <div class="cursor-pointer group">
-          <div
-            class="hover:scale-x-105 hover:scale-y-105 transition origin-left scale-x-100 duration-200 ease-in-out"
-          >
-            <a href="#" class="font-semibold text-lg text-primary">Industry</a>
-          </div>
-          <div
-            class="invisible absolute z-50 flex w-full flex-wrap left-0 bg-white shadow-xl mt-0.5 py-1 px-4 text-gray-800 group-hover:visible"
-          >
-          <div class="inner-industry w-1/2 p-2 lg:w-1/4">
-            <a href="#">
-            <span><img src="img/pantheon.png" width="25x25" alt="archeological"></span>
-            Archeological
-            </a>
-            <a href="#">
-            <span><img src="img/plant.png" width="25x25" alt="agriculture"></i></span>
-            Agriculture
-            </a>
-            <a href="#">
-            <span><img src="img/gear.png" width="25x25" alt="automotive"></i></span>
-            Automotive
-            </a>
-            
-        </div>
-        <div class="inner-industry w-1/2 p-2  lg:w-1/4">
-            <a href="#">
-            <span><img src="img/battery.png" width="25x25" alt="archeological"></i></span>
-            Battery
-            </a>
-            <a href="#">
-            <span><img src="img/test.png" width="25x25" alt="archeological"></i></span>
-            Biotechnology
-            </a>
-            <a href="#">
-            <span><img src="img/catalytic-converter.png" width="25x25" alt="archeological"></span>
-            Catalyst
-            </a>
-
-        </div>
-        <div class="inner-industry w-1/2 p-2 lg:w-1/4">
-            <a href="#">
-                <span><img src="img/vase.png" width="25x25" alt="ceramics"></i></span>
-                Ceramics
-                </a>
-            <a href="#">
-                <span><img src="img/flask.png" width="25x25" alt="chemical"></i></span>
-                Chemical
-                </a>
-            <a href="#">
-                <span><img src="img/skincare.png" width="25x25" alt="cosmetic"></i></span>
-                Cosmetic
-                </a>
-
-        </div>
-        <div class="inner-industry w-1/2 p-2 lg:w-1/4">
-            <a href="#">
-                <span><img src="img/oil-industry.png" width="25x25" alt="industry"></span>
-                Electronic Industry
-                </a>
-            <a href="#">
-                <span><img src="img/serum.png" width="25x25" alt="oil"></span>
-                Essential Oil
-                </a>
-            <a href="#" class="cursor-pointer flex items-center my-7 italic gap-2 text-primary font-semibold hover:text-white hover:scale-x-105 hover:scale-y-110 transition origin-left scale-x-100 duration-200 ease-in-out">
-                <span class="bg-primary p-1.5 rounded-full shadow-md"><i data-feather="arrow-right" class="text-white"></i></span>
-                See All Industry
-                </a>
-        </div>
-          </div>
-        </div>
-        <!-- Application -->
-        <div class="cursor-pointer group">
-            <div
-              class="hover:scale-x-105 hover:scale-y-105 transition origin-left scale-x-100 duration-200 ease-in-out"
-            >
-              <a href="#" class="font-semibold text-lg text-primary">Application</a>
+          <div class="flex justify-start items-center gap-3">
+            <div class="w-5 h-6 relative overflow-hidden">
+              <div
+                class="w-4 h-4 left-[1.33px] top-[1.33px] flex items-center absolute outline-offset-[-1px] outline-white"
+              >
+                <i class="fa-solid fa-clock text-white"></i>
+              </div>
             </div>
             <div
-              class="invisible absolute z-50 flex w-full flex-wrap left-0 bg-white shadow-xl mt-0.5 py-1 px-4 text-gray-800 group-hover:visible"
+              class="w-44 justify-start text-white text-sm font-normal leading-tight"
             >
-            <div class="inner-application w-1/2 xl:w-1/4">
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                ASTM D7061
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Adiabatic Calorimetri
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Agriculture & Soil Science
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Air Quality
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Atmosphere Science
-                </a>
-                
-            </div>
-            <div class="inner-application w-1/2 xl:w-1/4">
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Automated Continuous Measurement
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Battery Cell Characterization
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Battery Performance
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Battery Safety
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Bio Fuel Research
-                </a>
-  
-            </div>
-            <div class="inner-application w-1/2 xl:w-1/4">
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Breakthrough Analysis
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                CO2 Adsorption
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Canopy Assimilation
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Capillari Method
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Capillari Flow Porosimeter
-                </a>
-  
-            </div>
-            <div class="inner-application w-1/2 xl:w-1/4">
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Carbonylation
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Catalyst
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Centrifuge
-                </a>
-                <a href="#" class="cursor-pointer flex items-center my-4 italic gap-1 text-primary font-semibold hover:text-white hover:scale-x-105 hover:scale-y-110 transition origin-left scale-x-100 duration-200 ease-in-out">
-                    <span class="bg-primary p-1.5 rounded-full shadow-md"><i data-feather="arrow-right" class="text-white"></i></span>
-                    See All Application
-                    </a>
-            </div>
+              <p>Mon- Fri: 8.00am - 5.00pm</p>
             </div>
           </div>
-          <!-- Searh Form --> 
-            <div class="search-form h-[95%] w-[300px] flex bg-white p-1 rounded-md items-center gap-3 outline-1 transition origin-top ease-in-out duration-300">
-                <a href="#"><img src="img/transparency.png" width="20px" height="20px" alt="search"></a>
-                <input type="search" id="search-box" placeholder="Search Here..." />
-                <label for="search-box" class="cursor-pointer"></label>
+        </div>
+
+        <nav class="flex-1 flex justify-end items-center gap-7">
+          <div class="flex justify-start items-start">
+            <div class="w-28 flex justify-center items-center gap-4">
+              <div
+                data-property-1="Default"
+                class="px-4 flex justify-center items-center gap-2.5"
+              >
+                <div
+                  class="justify-start text-white text-base font-medium leading-normal"
+                >
+                  <a href="about.html">About Us</a>
                 </div>
-                <!-- Bookmark -->
-                 <div class="bookmark-icon">
-                    <a href="#"><img src="img/bookmark-2.png" width="28px" height="28px" alt="bookmark"></a>
-                 </div>
-           </div>
-        </div>
+              </div>
+            </div>
+            <div
+              data-property-1="Default"
+              class="flex justify-center items-center gap-4"
+            >
+              <div
+                data-property-1="Default"
+                class="px-4 flex justify-center items-center gap-2.5"
+              >
+                <div
+                  class="justify-start text-white text-base font-medium leading-normal"
+                >
+                  <a href="news.html"> News & Info</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-28 flex justify-center items-center gap-4">
+              <div
+                data-property-1="Default"
+                class="px-4 flex justify-start items-center gap-2.5"
+              >
+                <div
+                  class="justify-start text-white text-base font-medium leading-normal"
+                >
+                  <a href="career.html"> Career</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-28 px-4 flex justify-center items-center">
+              <div
+                class="justify-start text-white text-base font-medium leading-normal"
+              >
+                <a href="contact.html"> Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
-    <!-- Navbar End -->
 
-    <!-- Section Hero Start -->
-     <section id="home" class="pt-32 pb-10 h-[180vh]">
-        <div class="carousel relative w-full items-center justify-center overflow-hidden">
-            <div class="carousel-inner flex transition duration-500 ease-in-out">
-                <div class="carousel-item p-1 w-full shrink-0">
-                    <video autoplay loop muted src="img/partikel.mp4" class="w-full aspect-video"></video>
+    <section>
+      <div
+        data-property-1="Default"
+        class="w-full px-20 bg-white shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex justify-between items-center"
+      >
+        <img class="w-[200px] h-[30px]" src="img/Primary (Full Color).png" />
+        <div class="flex justify-end items-center gap-6">
+          <div class="flex justify-start items-center">
+            <div
+              data-property-1="Default"
+              class="px-4 py-6 flex justify-center items-center gap-2.5 cursor-pointer group"
+            >
+              <div
+                class="justify-start text-teal-500 text-xl font-medium leading-7"
+              >
+                Brand
+              </div>
+              <div
+                class="invisible absolute z-50 flex w-full h-auto flex-wrap left-0 top-31 bg-white shadow-xl px-[48px] py-[24px] group-hover:visible"
+              >
+                <div class="inner-brand w-1/2 xl:w-1/6 mx-auto">
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Linseis
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Micromeritics
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Piccaro
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    H.e.l
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Otsuka Electronics
+                  </a>
                 </div>
-                <div class="carousel-item p-1 w-full shrink-0">
-                    <img src="img/rephile-water-UNkNx6Hn9Fs-unsplash.jpg" alt="carousel2">
+                <div class="inner-brand w-1/2 xl:w-1/6 mx-auto">
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Hermle
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    JP Selecta
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Kern
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Kruss GmBH
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    PP System
+                  </a>
                 </div>
-                <div class="carousel-item p-1 w-full shrink-0">
-                    <img src="img/national-cancer-institute-2g9uIMeVKvk-unsplash.jpg" alt="carousel3">
+                <div class="inner-brand w-1/2 xl:w-1/6 mx-auto">
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Kruss Optronic
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    LabTech
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    MechaTech
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    MetOne Instrument
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Quantum Design
+                  </a>
                 </div>
-
+                <div class="inner-brand w-1/2 xl:w-1/6 mx-auto">
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Milwaukee
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    NEXOPART
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Nabertherm
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="carousel-desc absolute top-1/3 left-32 lg:w-1/3 h-1/5">
-                <h1 class="text-3xl text-white font-semibold pb-5 pr-24">Transforming Science with Expertise and Quality</h1>
-                <p class="text-base text-white pb-8 pr-14">At PT Era Mitra Perdana, we offer trusted scientific and laboratory solution backed by innovation, integrity and a commitment to your long term success</p>
-                <button type="button" onclick="" class="flex w-62 h-13 cursor-pointer justify-evenly items-center rounded-full bg-primary text-white">Make an Appointment<span class="p-2 bg-white rounded-full text-black"><i data-feather="arrow-right"></i></span></button>
+            <div
+              data-property-1="Default"
+              class="px-4 py-6 flex justify-center items-center gap-2.5"
+            >
+              <div
+                class="justify-start text-teal-500 text-xl font-medium leading-7"
+              >
+                Industry
+              </div>
             </div>
-            <!-- button prev slide -->
-            <button
-          class="carousel-control-prev absolute cursor-pointer top-[40%] left-3 transform -translate-y-1/2 bg-slate-600 opacity-30 text-white w-10 h-10 rounded-full hover:opacity-70"
-          onclick="prevSlide()"
-        >
-          &#10094;
-          <!-- Left Arrow -->
-            </button>
-        <!-- button next slide -->
-        <button
-          class="carousel-control-prev absolute cursor-pointer top-[40%] right-3 transform -translate-y-1/2 bg-slate-600 opacity-30 text-white w-10 h-10 rounded-full hover:opacity-70"
-          onclick="nextSlide()"
-        >
-        &#10095;
-          <!-- right Arrow -->
-        </button>
+            <div
+              data-property-1="Default"
+              class="px-4 py-6 flex justify-center items-center gap-2.5"
+            >
+              <div
+                class="justify-start text-teal-500 text-xl font-medium leading-7"
+              >
+                Application
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-72 inline-flex flex-col justify-start items-start gap-2"
+          >
+            <div
+              class="self-stretch p-2.5 bg-white rounded-[10px] outline-1 outline-offset-[-1px] outline-slate-600 inline-flex justify-start items-center gap-4"
+            >
+              <div class="w-full h-4 relative flex items-center gap-2">
+                <a href="#"
+                  ><img
+                    src="img/transparency.png"
+                    width="20px"
+                    height="20px"
+                    alt="search"
+                /></a>
+                <input
+                  class="w-full outline-none text-sm text-black"
+                  type="search"
+                  id="search-box"
+                  placeholder="search"
+                />
+                <label for="search-box" class="cursor-pointer"></label>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-start items-center">
+            <div
+              class="bookmark-icon flex items-center justify-center relative w-8 h-8 overflow-hidden"
+            >
+              <div class="w-6 h-6" title="Bookmark">
+                <a href="#"
+                  ><img src="img/bookmark-2.png" alt="bookmark" />
+                  <span
+                    class="quantity-badge inline-block bg-red-600 text-white text-xs w-4 h-4 text-center rounded-full absolute top-0 right-0"
+                    >4</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="relative w-screen">
-        <div class="w-[1200px] p-9 left-1/2 -translate-x-1/2 -top-[280px] absolute bg-primary/50 rounded-[20px] shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex justify-between">
-          <img class="w-96 h-72 rounded-3xl" src="img/national-cancer-institute-2g9uIMeVKvk-unsplash.jpg">
-          <div class="w-[646px] inline-flex flex-col justify-center items-start gap-8">
-            <h1 class="self-stretch justify-start text-Background-color-primary text-white text-4xl font-medium font-['Roboto'] leading-9">
-              Your Trusted Partner for Scientific and Laboratory Solutions
-            </h1>
-            <p class="self-stretch justify-start text-white text-Background-color-primary text-base font-normal font-['Roboto'] leading-normal">
-              As an official distributor of premium scientific instruments,
-              laboratory equipment, and services, PT Era Mitra Perdana has been
-              supporting over 300 laboratories across Indonesia in finding the
-              right tools and consumables for their needs. Our products are
-              developed with advanced expertise and manufactured under strict
-              quality control to ensure you receive only the best solutions for
-              your research and analysis.
-            </p>
-            
-              <button onclick="readMore()" class="px-4 py-2.5 outline outline-white inline-flex justify-center rounded-full items-center gap-2.5 text-Color-Neutral-white text-white text-sm font-medium font-['Roboto'] leading-tight">
-                Read More
+      </div>
+    </section>
+
+    <!-- Carousel Start -->
+    <section>
+      <div
+        data-property-1="Frame 114"
+        class="w-full inline-flex justify-start items-center gap-9"
+      >
+        <div
+          class="w-full h-[810px] relative inline-flex flex-col justify-start items-start gap-2.5"
+        >
+          <div class="w-full h-full absolute z-10 bg-cover bg-black/45"></div>
+          <div class="w-full h-[810px]">
+            <video
+              autoplay
+              loop
+              muted
+              src="img/partikel.mp4"
+              class="w-full h-full object-fill aspect-video"
+            ></video>
+          </div>
+          <div
+            class="w-[524px] h-72 left-[116px] top-[296px] absolute z-30 flex flex-col justify-start items-start gap-11"
+          >
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-4"
+            >
+              <div
+                class="self-stretch justify-start text-4xl font-medium leading-10"
+              >
+                <h4 class="text-white">
+                  Leading the Way in Scientific Equipment and Services
+                </h4>
+              </div>
+              <div
+                class="w-[497px] justify-start text-base font-normal leading-normal"
+              >
+                <p class="text-white">
+                  PT Era Mitra Perdana has provided reliable, cutting-edge
+                  solutions for laboratories and industries. From supply to
+                  installation and support, we’re committed to your success
+                  every step of the way.
+                </p>
+              </div>
+            </div>
+            <div
+              onclick="appointment()"
+              data-property-1="Default"
+              class="w-56 pl-3 pr-2.5 py-1 cursor-pointer bg-teal-500 rounded-3xl shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex justify-start items-center gap-3"
+            >
+              <div
+                class="flex-1 justify-start text-white text-sm font-medium leading-tight cursor-pointer"
+              >
+                Make an Appointment
+              </div>
+              <div
+                class="p-2.5 bg-white rounded-3xl flex justify-start items-center gap-2.5"
+              >
+                <div class="w-6 h-6 relative overflow-hidden">
+                  <div class="w-6 h-6 absolute flex items-center">
+                    <i class="fa-solid fa-arrow-right text-center mx-auto"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="p-2.5 right-[9px] top-[325px] absolute z-30 bg-zinc-800/30 rounded-full inline-flex justify-start items-center gap-2.5"
+          >
+            <div class="w-6 h-6 relative origin-top-left">
+              <button
+                class="carousel-control-prev cursor-pointer transform text-white w-6 h-6 rounded-full"
+                onclick="nextSlide()"
+              >
+                &#10095;
+                <!-- right Arrow -->
               </button>
             </div>
           </div>
-        </div>
-     </section>
-    <!-- Section Hero End -->
-
-    <!-- Section Upcoming Event Start -->
-    <section
-    id="blog"
-    class="pt-10 pb-14"
-  >
-    <div class="container mx-auto">
-      <div class="flex flex-wrap gap-10 items-center justify-center">
-        <div class="w-full p-4 lg:w-1/2 xl:w-96 self-stretch inline-flex flex-col shadow-md rounded-md">
-          <h2 class="text-2xl font-['Roboto'] text-primary pb-3">Latest Product Release</h2>
-          <div class="card-blog">
-            <img
-              src="img/rephile-water-UNkNx6Hn9Fs-unsplash.jpg"
-              alt="bulldozer"
-              width="352px"
-              height="264"
-              
-            />
-            <div class="py-5 self-stretch flex flex-col justify-start items-start">
-              
-              <p class="content-blog font-['Roboto']">
-                Meet the TriStar 3030, a state-of-the-art High Throughput Surface Area and Porosity Analyzer by Micromeritics. This essential tool provides accurate measurements quickly, enhancing your material characterization process.
-              </p>
-              <a href="#" onclick="learnMore()" class="button-details-blog"
-                >Learn More <i data-feather="arrow-right" width="15px" height="15px" class="text-primary"></i> </a
+          <div
+            class="p-2.5 left-[9px] top-[325px] absolute z-30 bg-zinc-800/20 rounded-full inline-flex justify-start items-center gap-2.5"
+          >
+            <div class="w-6 h-6 relative origin-top-left">
+              <button
+                class="carousel-control-prev cursor-pointer transform text-white w-6 h-6 rounded-full"
+                onclick="prevSlide()"
               >
+                &#10094;
+                <!-- Left Arrow -->
+              </button>
+            </div>
+          </div>
+          <!-- cta center -->
+          <div
+            class="w-[1200px] p-9 bg-primary/60 absolute z-50 -bottom-65 left-1/2 -translate-x-1/2 rounded-[20px] shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex justify-between items-center"
+          >
+            <img
+              class="w-96 h-72 rounded-3xl"
+              src="https://placehold.co/450x300"
+            />
+            <div
+              class="w-[646px] inline-flex flex-col justify-center items-start gap-8"
+            >
+              <div class="self-stretch">
+                <h1
+                  class="justify-start text-white text-3xl font-medium leading-9"
+                >
+                  Your Trusted Partner for Scientific and Laboratory Solutions
+                </h1>
+              </div>
+              <div class="self-stretch">
+                <p
+                  class="justify-start text-white text-base font-normal leading-normal"
+                >
+                  As an official distributor of premium scientific instruments,
+                  laboratory equipment, and services, PT Era Mitra Perdana has
+                  been supporting over 300 laboratories across Indonesia in
+                  finding the right tools and consumables for their needs. Our
+                  products are developed with advanced expertise and
+                  manufactured under strict quality control to ensure you
+                  receive only the best solutions for your research and
+                  analysis.
+                </p>
+              </div>
+              <div
+                onclick="readMore()"
+                data-property-1="outline"
+                class="px-4 py-2.5 rounded-[20px] outline outline-offset-[-1px] outline-white inline-flex cursor-pointer justify-center items-center gap-2.5"
+              >
+                <div
+                  class="justify-start text-white text-sm font-medium leading-tight"
+                >
+                  Read More
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="w-full p-4 lg:w-1/2 xl:w-96 self-stretch inline-flex flex-col shadow-md rounded-md">
-          <h2 class="text-2xl font-['Roboto'] text-primary pb-3">Latest News</h2>
-          <div class="card-blog">
-            <img
-              src="img/rephile-water-UNkNx6Hn9Fs-unsplash.jpg"
-              alt="bulldozer"
-              width="352px"
-              height="264"
-              
-            />
-            <div class="py-5">
-              
-              <p class="content-blog font-['Roboto']">
-                Meet the Micromeritics FT4 Powder Rheometer, your essential tool for meeting industry standards D8328, D8327, and D7891. This advanced instrument simplifies powder flow testing, ensuring compliance with strict procedures. With accurate measurements and intuitive features, the FT4 helps researchers and manufacturers improve formulations and product quality.
-              </p>
-              <a href="#" onclick="learnMore()" class="button-details-blog"
-                >Learn More <i data-feather="arrow-right" width="15px" height="15px" class="text-primary"></i> </a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="w-full p-4 lg:w-1/2 xl:w-96 self-stretch inline-flex flex-col shadow-md rounded-md">
-          <h2 class="text-2xl font-['Roboto'] text-primary pb-3">Upcoming Event</h2>
-          <div class="card-blog">
-            <img
-              src="img/rephile-water-UNkNx6Hn9Fs-unsplash.jpg"
-              alt="bulldozer"
-              width="352px"
-              height="264"
-              
-            />
-            <div class="py-5">
-              
-              <p class="content-blog font-['Roboto']">
-               Check Our Up Coming Live Events
-              </p>
-              <a href="#" onclick="learnMore()" class="button-details-blog"
-                >Learn More <i data-feather="arrow-right" width="15px" height="15px" class="text-primary"></i> </a
-              >
-            </div>
-          </div>
-        </div>
-        
-        
       </div>
-
-      <!-- <div
-        class="arrows z-10 absolute gap-4 h-80 w-80 inset-y-80 bg-slate-400"
-      >
-        <button
-          id="prev"
-          class="bg-slate-300 text-white w-8 h-8 rounded-2xl hover:bg-primary hover:text-dark"
-        >
-          &lt;
-        </button>
-        <button
-          id="next"
-          class="bg-slate-300 text-white w-8 h-8 rounded-2xl hover:bg-primary hover:text-dark"
-        >
-          &gt;
-        </button>
-      </div> -->
-    </div>
     </section>
-    <!-- Section Upcoming Event End -->
+    <!-- Carousel End -->
 
-    <!-- Section Brands Start -->
-     <section id="brands" class="pt-15 pb-10">
+    <!-- Section Latest Update Start -->
+    <section class="pt-[334px]">
       <div class="container mx-auto">
-        <div class="w-full px-4">
-          <div class="max-w-3xl mx-auto text-center mb-14">
-            <h1 class="text-3xl text-primary self-stretch pb-2 text-center font-medium font-['Roboto']">Our Products</h1>
-            <h4 class="text-sm font-['Roboto' text-center self-stretch]">We team up with global industry leaders to bring you the most advanced, innovative and effective healthcare equipment. Becoming a solution for your business.</h4>
-
+        <div class="self-stretch py-16 flex justify-center items-center gap-10">
+          <div
+            class="w-96 self-stretch p-6 bg-white rounded-[20px] shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-between items-start"
+          >
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-4"
+            >
+              <div
+                class="self-stretch justify-start text-teal-500 text-3xl font-medium leading-9"
+              >
+                <h2>Latest Product Release</h2>
+              </div>
+              <div
+                class="self-stretch flex flex-col justify-start items-start gap-6"
+              >
+                <img
+                  class="self-stretch h-64"
+                  src="https://placehold.co/352x264"
+                />
+                <div
+                  class="self-stretch justify-start text-slate-600 text-xs font-medium leading-none"
+                >
+                  <p>
+                    Meet the TriStar 3030, a state-of-the-art High Throughput
+                    Surface Area and Porosity Analyzer by Micromeritics. This
+                    essential tool provides accurate measurements quickly,
+                    enhancing your material characterization process.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              onclick="learnMore()"
+              data-property-1="Default"
+              class="pr-3 py-2 inline-flex justify-center cursor-pointer items-center gap-2.5"
+            >
+              <div
+                class="justify-start text-teal-500 text-sm font-normal leading-tight"
+              >
+                Learn More
+              </div>
+              <div class="w-6 h-6 relative overflow-hidden">
+                <div class="w-3.5 h-3.5 left-[5px] top-[5px]">
+                  <i
+                    class="fa-solid fa-arrow-right text-primary text-center text-sm/8"
+                  ></i>
+                </div>
+              </div>
+            </div>
           </div>
-
-        </div>
-        <div class="w-full flex flex-col justify-center items-center px-4">
-          <!-- Brands Line 1 -->
-          <div class="self-stretch inline-flex justify-center items-center gap-4">
-            <div class="w-64 h-40 p-2 inline-flex flex-col justify-center items-start gap-2">
-            <img src="img/mm.png" class="object-fill aspect-auto w-[235px] h-[30px]" alt="micromeritics">
+          <div
+            class="w-96 self-stretch p-6 bg-white rounded-[20px] shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-between items-start"
+          >
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-4"
+            >
+              <div
+                class="self-stretch justify-start text-teal-500 text-3xl font-medium leading-9"
+              >
+                <h2>Latest News</h2>
+              </div>
+              <div
+                class="self-stretch flex flex-col justify-start items-start gap-6"
+              >
+                <img
+                  class="self-stretch h-64"
+                  src="https://placehold.co/352x264"
+                />
+                <div
+                  class="self-stretch justify-start text-slate-600 text-xs font-medium leading-none"
+                >
+                  <p>
+                    Meet the Micromeritics FT4 Powder Rheometer, your essential
+                    tool for meeting industry standards D8328, D8327, and D7891.
+                    This advanced instrument simplifies powder flow testing,
+                    ensuring compliance with strict procedures. With accurate
+                    measurements and intuitive features, the FT4 helps
+                    researchers and manufacturers improve formulations and
+                    product quality.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              onclick="learnMore()"
+              data-property-1="Default"
+              class="pr-3 py-2 inline-flex justify-center cursor-pointer items-center gap-2.5"
+            >
+              <div
+                class="justify-start text-teal-500 text-sm font-normal leading-tight"
+              >
+                Learn More
+              </div>
+              <div class="w-6 h-6 relative overflow-hidden">
+                <div class="w-3.5 h-3.5 left-[5px] top-[5px]">
+                  <i
+                    class="fa-solid fa-arrow-right text-primary text-center text-sm/8"
+                  ></i>
+                </div>
+              </div>
+            </div>
           </div>
-            <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-            <img src="img/linseis.png" class="object-fill aspect-auto w-[200px] h-[117px]" alt="linseis">
+          <div
+            class="w-96 self-stretch p-6 bg-white rounded-[20px] shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-between items-start"
+          >
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-4"
+            >
+              <div
+                class="self-stretch justify-start text-teal-500 text-3xl font-medium leading-9"
+              >
+                <h2>Upcoming Event</h2>
+              </div>
+              <div
+                class="self-stretch flex flex-col justify-start items-start gap-6"
+              >
+                <img
+                  class="self-stretch h-64"
+                  src="https://placehold.co/352x264"
+                />
+                <div
+                  class="self-stretch justify-start text-slate-600 text-xs font-medium leading-none"
+                >
+                  <p>Check Our Upcoming Live Events</p>
+                </div>
+              </div>
+            </div>
+            <div
+              onclick="learnMore()"
+              data-property-1="Default"
+              class="pr-3 py-2 inline-flex justify-center cursor-pointer items-center gap-2.5"
+            >
+              <div
+                class="justify-start text-teal-500 text-sm font-normal leading-tight"
+              >
+                Learn More
+              </div>
+              <div class="w-6 h-6 relative overflow-hidden">
+                <div class="w-3.5 h-3.5 left-[5px] top-[5px]">
+                  <i
+                    class="fa-solid fa-arrow-right text-primary text-center text-sm/8"
+                  ></i>
+                </div>
+              </div>
+            </div>
           </div>
-            <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-            <img src="img/metone.png" class="object-fill aspect-auto w-[150px] h-[80px]" alt="metone">
-          </div>
-            <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-            <img src="img/acoem.png" class="object-fill aspect-auto w-[150px] h-[60px]" alt="acoem">
-          </div>
-          </div>
-           <!-- Brands Line 2 -->
-          <div class="self-stretch inline-flex justify-center items-center gap-4">
-            <div class="w-64 h-40 p-2 inline-flex flex-col justify-center items-start gap-2">
-            <img src="img/kern.png" class="object-fill aspect-auto w-[150px] h-[60px]" alt="kern">
-          </div>
-            <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-            <img src="img/kruss-2.png" class="object-fill aspect-auto w-[200px] h-[120px]" alt="kruss">
-          </div>
-            <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-            <img src="img/piccaro.png" class="object-fill aspect-auto w-[160px] h-[40px]" alt="piccaro">
-          </div>
-            <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-            <img src="img/hermle.png" class=" object-fill aspect-auto w-[140px] h-[60px]" alt="hermle">
-          </div>
         </div>
-        <!-- Brands Line 3 -->
-        <div class="self-stretch inline-flex justify-center items-center gap-4">
-          <div class="w-64 h-40 p-2 inline-flex flex-col justify-center items-start gap-2">
-          <img src="img/kruss-1.png" class="object-fill aspect-auto w-[160px] h-[60px]" alt="kruss">
-        </div>
-          <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-          <img src="img/jpselecta.png" class="object-fill aspect-auto " alt="jpselecta">
-        </div>
-          <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-          <img src="img/labtech.png" class="object-fill aspect-auto" alt="labtech">
-        </div>
-          <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-          <img src="img/nabertherm.png" class=" object-cover aspect-auto max-w-full h-auto" alt="nabertherm">
-        </div>
-        </div>
-        <!-- Brands Line 4 -->
-        <div class="self-stretch inline-flex justify-center items-center gap-4">
-          <div class="w-64 h-40 p-2 inline-flex flex-col justify-center items-start gap-2">
-          <img src="img/hel.png" class="object-fill aspect-auto w-48 h-16" alt="hel">
-        </div>
-          <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-          <img src="img/mechatech.png" class="object-fill aspect-auto w-[200px] h-[55px]" alt="mechatech">
-        </div>
-          <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-          <img src="img/ppsystem.png" class="object-fill aspect-auto w-[150px] h-[150px]" alt="ppsystem">
-        </div>
-          <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-          <img src="img/kawara.png" class=" object-cover aspect-auto w-[200px] h-[53px]" alt="ohkawara">
-        </div>
-        </div>
-        <!-- Brands Line 5 -->
-        <div class="self-stretch inline-flex justify-center items-center gap-4">
-          <div class="w-64 h-40 p-2 inline-flex flex-col justify-center items-start gap-2">
-          <img src="img/procept.png" class="object-fill aspect-auto w-[200px] h-[48]" alt="procept">
-        </div>
-          <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-          <img src="img/logo-166604785.png" class="object-fill aspect-auto w-[200px] h-[60px]" alt="milwaukee">
-        </div>
-          <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-          <img src="img/nexopart.png" class="object-fill aspect-auto w-[180px] h-[40px]" alt="nexopart">
-        </div>
-          <div class="w-64 h-40 p-2.5 inline-flex flex-col justify-center items-start">
-          <img src="img/quantum-design.png" class=" object-cover aspect-auto w-[170px] h-[40px]" alt="quantum-design">
-        </div>
-        </div>
-        <!-- Brands Line 6 -->
-         <div class="self-stretch inline-flex justify-center items-center gap-4">
-          <div class="w-64 h-40 p-2 inline-flex flex-col justify-center items-start gap-2">
-            <img src="img/otsuka.png" class="object-fill aspect-auto w-[300px] h-[56px]" alt="otsuka">
-          </div>
-         </div>
-
       </div>
+    </section>
+    <!-- Section Latest Update End -->
+
+    <!-- Section Our Brands Start-->
+    <section>
+      <div class="container mx-auto">
+        <div
+          class="w-full self-stretch px-20 py-16 inline-flex flex-col justify-start items-center gap-20"
+        >
+          <div class="w-[906px] flex flex-col justify-start items-center">
+            <div
+              class="self-stretch text-center justify-start text-teal-500 text-3xl font-medium font-['Roboto'] leading-9"
+            >
+              Our Products
+            </div>
+            <div
+              class="self-stretch text-center justify-start text-slate-600 text-base font-normal font-['Roboto'] leading-normal"
+            >
+              <br />We team up with global industry leaders to bring you the
+              most advanced, innovative and effective healthcare equipment.
+              Becoming a solution for your business.
+            </div>
+          </div>
+          <div
+            class="w-[1440px] px-20 flex flex-col justify-start items-center gap-14"
+          >
+            <div
+              class="self-stretch h-[1080px] flex flex-col justify-start items-start gap-16"
+            >
+              <div
+                class="self-stretch inline-flex justify-center items-center gap-4"
+              >
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-start gap-2.5"
+                >
+                  <img class="self-stretch h-8" src="img/mm.png" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-12" src="img/piccaro.png" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-14" src="img/quantum-design.png" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-24" src="img/metone.png" />
+                </div>
+              </div>
+              <div
+                class="self-stretch inline-flex justify-center items-center gap-4"
+              >
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-16" src="img/logo-166604785.png" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-36 h-36" src="img/ppsystem.png" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-64 h-20" src="img/acoem.png" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-64 h-28" src="img/linseis.png" />
+                </div>
+              </div>
+              <div
+                class="self-stretch inline-flex justify-center items-center gap-4"
+              >
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-10" src="img/nexopart.png" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-28" src="img/kruss-2.png" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-20" src="img/hermle.png" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-20" src="img/kruss-1.png" />
+                </div>
+              </div>
+              <div
+                class="self-stretch inline-flex justify-center items-center gap-4"
+              >
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-40 h-12" src="img/hel.png" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-56 h-24" src="img/nabertherm.png" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-16" src="img/kern.png" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-11" src="img/procept.png" />
+                </div>
+              </div>
+              <div
+                class="self-stretch flex-1 inline-flex justify-center items-center gap-3"
+              >
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-14" src="https://placehold.co/200x55" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-28" src="https://placehold.co/200x106" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-14" src="https://placehold.co/200x59" />
+                </div>
+                <div
+                  class="w-64 h-40 p-2.5 rounded-[20px] inline-flex flex-col justify-center items-center gap-2.5"
+                >
+                  <img class="w-48 h-14" src="https://placehold.co/200x53" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="h-40 p-2.5 rounded-[20px] flex flex-col justify-center items-center gap-2.5"
+            >
+              <img class="w-72 h-14" src="https://placehold.co/300x56" />
+            </div>
+          </div>
+        </div>
       </div>
-     </section>
-    <!-- Section Brands End -->
+    </section>
+    <!-- Section Our Brands End-->
 
     <!-- Section Achievment Start -->
-     <section id="achievment" class="pt-8 pb-8 bg-gray-100">
-      <div class="container mx-auto h-[520px]">
-        <div class="flex flex-wrap px-4 p-4 justify-between pt-18">
-          <div class="w-full lg:w-1/2 px-16">
-            <h2 class="uppercase font-['Roboto'] text-primary text-xl font-medium pb-3">achievment at glance</h2>
-            <h1 class="font-['Roboto'] text-4xl font text-gray-700 pb-3">Our Edge <br>in Excellence</h1>
-            <p class="font-['Roboto'] text-sm/4 text-gray-700">At PT Era Mitra Perdana, our commitment to excellence has driven us to achieve remarkable <br> milestones. With over two decades of experience in the scientific and laboratory equipment <br> industry, we have built a reputation as a trusted partner for institutions, industries, and <br> research organizations.</p>
-            <hr class="my-0.5 border-t-2 border-gray-400 mr-20 mt-20">
-          </div>
-          <div class="w-full lg:w-1/2 gap-12 flex items-center justify-end px-10"> 
-            <div class="flex justify-end">
-            <div class="relative w-64 h-40 bg-gray-700 rounded-lg shadow-lg p-6">
-              <div class="absolute right-1 top-0 w-2 h-full rounded-r-lg bg-primary"></div>
-              <h1 class="text-3xl font-['Roboto'] text-white font-light">100+</h1>
-              <div class="absolute bottom-0">
-              <h2 class="uppercase text-xs text-white font-light font-['Roboto']">clients</h2>
-              <h4 class="uppercase text-xs text-white font-light font-['Roboto']">(GOVERMENTS, UNIVERSITIES & INDUSTRY)</h4>
+    <section>
+      <div class="container mx-auto">
+        <div
+          class="w-full self-stretch px-20 py-16 bg-stone-100 inline-flex justify-start items-start gap-16 overflow-hidden mx-auto"
+        >
+          <div
+            class="w-[455px] pb-16 border-b-2 border-stone-300 inline-flex flex-col justify-start items-start gap-3"
+          >
+            <div
+              class="self-stretch justify-start text-teal-500 text-base font-normal font-['Roboto'] leading-normal"
+            >
+              ACHIEVMENT AT GLANCE
             </div>
-            </div>
-          </div>
-            <div class="flex flex-col items-start justify-center">
-              <div class="relative w-64 h-40 bg-gray-700 rounded-lg shadow-lg p-6">
-                <div class="absolute right-1 top-0 w-2 h-full rounded-r-lg bg-primary"></div>
-                <h1 class="text-3xl font-['Roboto'] text-white font-light">100+</h1>
-                <div class="absolute bottom-0">
-                <h2 class="uppercase text-xs text-white font-light font-['Roboto']">Products</h2>
-                <h4 class="uppercase text-xs text-white font-light font-['Roboto']">high-quality</h4>
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-3"
+            >
+              <div
+                class="w-64 justify-start text-slate-600 text-4xl font-medium font-['Roboto'] leading-10"
+              >
+                Our Edge<br />in Excellence
+              </div>
+              <div
+                class="self-stretch justify-start text-slate-600 text-xs font-normal font-['Roboto'] leading-none"
+              >
+                At PT Era Mitra Perdana, our commitment to excellence has driven
+                us to achieve remarkable milestones. With over two decades of
+                experience in the scientific and laboratory equipment industry,
+                we have built a reputation as a trusted partner for
+                institutions, industries, and research organizations.
               </div>
             </div>
-              <div class="relative w-64 h-40 bg-gray-700 rounded-lg shadow-lg p-6 mt-16">
-                <div class="absolute right-1 top-0 w-2 h-full rounded-r-lg bg-primary"></div>
-                <h1 class="text-3xl font-['Roboto'] text-white font-light">20+</h1>
-                <div class="absolute bottom-0">
-                <h2 class="uppercase text-xs text-white font-light font-['Roboto']">year</h2>
-                <h4 class="uppercase text-xs text-white font-light font-['Roboto']">experience</h4>
+          </div>
+          <div class="flex-1 flex justify-end items-center gap-16">
+            <div
+              class="w-64 h-44 p-6 relative bg-slate-600 rounded-[10px] shadow-[0px_4px_2px_0px_rgba(0,0,0,0.12)] inline-flex flex-col justify-between items-start"
+            >
+              <div
+                class="self-stretch justify-start text-white text-3xl font-medium font-['Roboto'] leading-9"
+              >
+                100+
               </div>
+              <div
+                class="self-stretch justify-start text-white text-xs font-medium font-['Roboto'] leading-none"
+              >
+                CLIENTS <br />(GOVERMENTS, UNIVERSITIES & INDUSTRY)
+              </div>
+              <div
+                class="w-2 h-44 left-[244px] top-0 absolute bg-teal-500 rounded-tr-[10px] rounded-br-[10px]"
+              ></div>
             </div>
+            <div
+              class="w-64 inline-flex flex-col justify-start items-start gap-16"
+            >
+              <div
+                class="w-64 h-44 p-6 relative bg-slate-600 rounded-[10px] shadow-[0px_4px_2px_0px_rgba(0,0,0,0.12)] flex flex-col justify-between items-start"
+              >
+                <div
+                  class="self-stretch justify-start text-white text-3xl font-medium font-['Roboto'] leading-9"
+                >
+                  100+
+                </div>
+                <div
+                  class="self-stretch justify-start text-white text-xs font-medium font-['Roboto'] leading-none"
+                >
+                  PRODUCT<br />HIGH-QUALITY
+                </div>
+                <div
+                  class="w-2 h-44 left-[242px] top-0 absolute bg-teal-500 rounded-tr-[10px] rounded-br-[10px]"
+                ></div>
+              </div>
+              <div
+                class="self-stretch h-44 p-6 relative bg-slate-600 rounded-[10px] shadow-[0px_4px_2px_0px_rgba(0,0,0,0.12)] flex flex-col justify-between items-start"
+              >
+                <div
+                  class="self-stretch justify-start text-white text-3xl font-medium font-['Roboto'] leading-9"
+                >
+                  20+
+                </div>
+                <div
+                  class="self-stretch justify-start text-white text-xs font-medium font-['Roboto'] leading-none"
+                >
+                  YEAR<br />EXPERIENCE
+                </div>
+                <div
+                  class="w-2 h-44 left-[244px] top-0 absolute bg-teal-500 rounded-tr-[10px] rounded-br-[10px]"
+                ></div>
+              </div>
             </div>
           </div>
         </div>
-      </div>      
-     </section>
+      </div>
+    </section>
     <!-- Section Achievment End -->
 
-    <!-- Section Approach Start -->
-    <section id="aprroach" class="pt-14 pb-18">
-      <div class="container mx-auto relative">
-        <div class="w-full px-13 py-7">
-          <h4 class="uppercase text-lg text-primary font-['Roboto'] pb-3">our proven process</h4>
-          <h1 class="text-4xl text-gray-800 font-['Roboto'] pb-3">Streamlined Approach to <br><span class="font-semibold">Success</span></h1>
-          <p class="text-base/5 text-gray-800 font-['Roboto']">At PT Era Mitra Perdana, we believe in a smooth, transparent, and effective <br> collaboration process that ensures the best results for our clients. Here's how we <br> work together to bring your laboratory and scientific equipment needs to life</p>
-        </div>
-        <div class="flex w-full px-16 pb-12">
-          <div class="w-full flex lg:w-1/2 justify-center">
-            <div class="w-[48px] h-[48px] bg-white rounded-full shadow-lg place-content-center">
-           <img src="img/consultation & solutions.png" alt="consultation" class="w-[32px] h-[32px] mx-auto">
-          </div>
-          <div class="w-full px-3">
-            <h2 class="uppercase text-base text-gray-500 font-['Roboto'] pb-1">step 1</h2>
-            <h1 class="text-3xl text-gray-700 font-['Roboto'] pb-1.5">Initial Consultation & Customized Solutions</h1>
-            <p class="text-base/5 text-gray-700 font-['Roboto']">We begin by understanding your specific needs, challenges, and goals. Then, we develop <br> tailored solutions, providing a selection of equipment and services that match your budget <br> and objectives, backed by our industry expertise and trusted global brands.</p>
-          </div>
-          </div>
-          <div class="w-full flex lg:w-1/2 justify-center">
-            <div class="w-[48px] h-[48px] bg-white rounded-full shadow-lg place-content-center">
-           <img src="img/Group.png" alt="consultation" class="w-[32px] h-[32px] mx-auto">
-          </div>
-          <div class="w-full px-3">
-            <h2 class="uppercase text-base text-gray-500 font-['Roboto'] pb-1">step 2</h2>
-            <h1 class="text-3xl text-gray-700 font-['Roboto'] pb-1.5">Product Selection & Supply</h1>
-            <p class="text-base/5 text-gray-700 font-['Roboto']">Based on your needs, we provide a range of equipment and services that match your <br> budget and objectives. Our recommendations are backed by our deep <br> industry knowledge and access to top global brands.</p>
-          </div>
-          </div>
-
-        </div>
-        <div class="flex w-full px-16">
-          <div class="w-full flex lg:w-1/2 justify-center">
-            <div class="w-[48px] h-[48px] bg-white rounded-full shadow-lg place-content-center">
-           <img src="img/instalations & Setup.png" alt="instalations" class="w-[32px] h-[32px] mx-auto">
-          </div>
-          <div class="w-full px-3">
-            <h2 class="uppercase text-base text-gray-500 font-['Roboto'] pb-1">step 3</h2>
-            <h1 class="text-3xl text-gray-700 font-['Roboto'] pb-1.5">Professional Installation & Setup</h1>
-            <p class="text-base/5 text-gray-700 font-['Roboto']">Our experienced technicians manage the installation and setup of your <br> equipment, ensuring everything runs smoothly and is fully operational <br> from day one.</p>
-          </div>
-          </div>
-          <div class="w-full flex lg:w-1/2 justify-center">
-            <div class="w-[48px] h-[48px] bg-white rounded-full shadow-lg place-content-center">
-           <img src="img/partnership.png" alt="consultation" class="w-[32px] h-[32px] mx-auto">
-          </div>
-          <div class="w-full px-3">
-            <h2 class="uppercase text-base text-gray-500 font-['Roboto'] pb-1">step 4</h2>
-            <h1 class="text-3xl text-gray-700 font-['Roboto'] pb-1.5">Ongoing Support & Continuous Partnership</h1>
-            <p class="text-base/5 text-gray-700 font-['Roboto']">Our relationship extends beyond installation. We provide ongoing support, <br> maintenance, and training to ensure optimal equipment performance. We also stay <br> engaged with regular check-ins, updates on the latest technology, and adjustments to <br> keep you ahead in your industry.</p>
-          </div>
-          </div>
-
-        </div>
-        <div class="absolute pt-8 -bottom-26 right-36">
-          <button type="button" onclick="" class="flex w-62 h-13 cursor-pointer justify-evenly items-center shadow-lg rounded-full bg-primary text-white font-['Roboto']">Make an Appointment<span class="p-2 bg-white rounded-full text-black"><i data-feather="arrow-right"></i></span></button>
-        </div>
-      </div>
-
-     </section>
-    <!-- Section Approach End -->
-
-    <!-- Section Serve Start-->
-     <section id="severse" class="pt-20 mt-16 pb-20 bg-slate-100">
+    <!-- Streamline Approach Start -->
+    <section>
       <div class="container mx-auto">
-        <div class="w-full mx-auto text-center">
-          <h4 class="uppercase text-base text-primary font-['Roboto'] pb-4">industry we serverse</h4>
-          <h1 class="text-4xl text-gray-700 font-['Roboto'] pb-4">Tailored Solutions for <br><span class="font-bold">Diverse Sectors</span></h1>
-          <p class="text-base text-gray-700 font-['Roboto']">Explore the major industries benefiting from our specialized products. We cater to a variety of sectors, <br> ensuring tailored solutions that meet the unique needs of each industry.</p>
-        </div>
-        <div class="w-full mx-auto pt-10">
-          <!-- Line 1 -->
-          <div class="flex flex-wrap justify-center items-center py-8 gap-8">
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/agriculture.png" alt="agriculture" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Agriculture</h4>
-          </div>
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/arceolog.png" alt="agriculture" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Archeological</h4>
-          </div>
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/automotive.png" alt="agriculture" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Automotive</h4>
-          </div>
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/biotech.png" alt="agriculture" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Biotechnology</h4>
-          </div>
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/battery-2.png" alt="agriculture" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Battery</h4>
-          </div>
-          </div>
-          <!-- Line 2 -->
-          <div class="flex flex-wrap justify-center items-center py-5 gap-8">
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/essential-oil.png" alt="essential-oil" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Essential Oil</h4>
-          </div>
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/food.png" alt="agriculture" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Food & Beverage</h4>
-          </div>
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/packaging.png" alt="agriculture" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Food Packaging</h4>
-          </div>
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/building.png" alt="agriculture" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Building Material</h4>
-          </div>
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/catalyist-2.png" alt="agriculture" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Catalyst</h4>
-          </div>
-          </div>
-          <!-- Line 3 -->
-          <div class="flex flex-wrap justify-center items-center py-5 gap-8">
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/ceramics-2.png" alt="essential-oil" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Ceramics</h4>
-          </div>
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/chemical-2.png" alt="agriculture" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Chemical</h4>
-          </div>
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/cosmetic2.png" alt="agriculture" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Cosmetic</h4>
-          </div>
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/electronic-ind.png" alt="agriculture" class="mx-auto object-contain aspect-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Electronic Industry</h4>
-          </div>
-            <div class="w-[188px] h-[116px] p-1">
-            <img src="img/fragance.png" alt="agriculture" class="mx-auto w-[60px] h-[60px]">
-            <h4 class="pt-1 text-xl text-gray-600 text-center">Fragances</h4>
-          </div>
-          </div>
-
-        </div>
-        <div class="w-full mx-auto pt-12">
-        <a href="#" class="flex items-center justify-center gap-3 text-xl text-primary">More Industries <span class="p-1 bg-white rounded-full shadow-lg"><i data-feather="arrow-right" class="w-[16px] h-[16px] text-center"></i></span></a>
-      </div>
-      </div>
-
-     </section>
-    <!-- Section Serve End-->
-
-    <!-- Section Logo Clients Start -->
-     <section id="logo-clients" class="pt-16">
-      <div class="container mx-auto">
-        <div class="w-full px-4 pb-20">
-          <h1 class="text-center text-2xl text-primary font-semibold">Trusted by Leading Businesses</h1>
-        </div>
-        <!-- clients line 1 -->
-        <div class="w-full px-4 flex flex-wrap items-center justify-center">
-          <div class="w-[188px] h-[116px] p-1 ">
-            <img src="img/brin.png" alt="brin" class="w-[100px] h-[40px] mx-auto my-auto">
-          </div>
-          <div class="w-[188px] h-[116px] p-1">
-            <img src="img/bmkg.png" alt="bmkg" class="w-[90px] h-[55px] mx-auto my-auto">
-          </div>
-          <div class="w-[188px] h-[116px] p-1">
-            <img src="img/lipi.png" alt="lipiclass=" class=" h-[65px] mx-auto my-auto">
-          </div>
-          <div class="w-[188px] h-[116px] p-1">
-            <img src="img/kf.png" alt="kimia-farma" class="w-[100px] h-[40px] mx-auto my-auto">
-          </div>
-          <div class="w-[188px] h-[116px] p-1">
-            <img src="img/pertamina.png" alt="pertamina" class="w-[100px] h-[40px] mx-auto my-auto">
-          </div>
-          <div class="w-[188px] h-[116px] p-1">
-            <img src="img/bpom.png" alt="bpom" class="w-[60px] h-[60px] mx-auto my-auto">
-          </div>
-        </div>
-        <!-- clients line 2 -->
-        <div class="w-full px-4 flex flex-wrap items-center justify-center">
-          <div class="w-[188px] h-[116px] p-1 ">
-            <img src="img/ui.png" alt="ui" class="w-[100px] h-[35px] mx-auto my-auto">
-          </div>
-          <div class="w-[188px] h-[116px] p-1">
-            <img src="img/ugm.png" alt="bmkg" class="w-[100px] h-[40px] mx-auto my-auto">
-          </div>
-          <div class="w-[188px] h-[116px] p-1">
-            <img src="img/unpad.png" alt="lipiclass=" class="w-[100px] h-[27px] mx-auto my-auto">
-          </div>
-          <div class="w-[188px] h-[116px] p-1">
-            <img src="img/ipb.png" alt="kimia-farma" class="w-[100px] h-[30px] mx-auto my-auto">
-          </div>
-
-        </div>
-
-      </div>
-
-     </section>
-    <!-- Section Logo Clients End -->
-
-    <!-- Section CTA Start -->
-     <section id="cta" class="pt-18 pb-24">
-      <div class="container mx-auto">
-        <div class="w-[1080px] h-[688px] px-6 flex flex-row justify-between items-center bg-gray-300/30 rounded-xl mx-auto">
-          <div class="w-full lg:w-1/2 p-2">
-            <h4 class="uppercase text-xl text-primary pb-3">TAKE THE NEXT STEP FORWARD</h4>
-            <h1 class="text-5xl text-gray-700 pb-7">Connect with <br> us for <br><span class="font-bold">Tailored <br> Solutions</span></h1>
-            <p class="text-base/5 text-gray-700 pb-6">Whether you’re looking to boost efficiency, <br> ensure quality, or streamline your processes, our <br> team is here to help you achieve your goals</p>
-            <button type="button" onclick="" class="flex w-54 h-13 cursor-pointer justify-evenly items-center shadow-lg rounded-full bg-primary text-white font-light font-['Roboto']">Unlock Your Next Step<span class="p-2 bg-white rounded-full text-black"><i data-feather="arrow-right"></i></span></button>
-          </div>
-          <div class="w-full lg:w-1/2 p-2">
-            <img src="img/cta.png" alt="cta" class="w-[560px] h-[560px] rounded-xl">
-          </div>
-        </div>
-      </div>
-
-     </section>
-    <!-- Section CTA End -->
-
-    <footer class="pt-20 pb-12 bg-primary">
-      <div class="container mx-auto">
-        <div class="flex flex-wrap justify-center">
-          <div class="w-full pl-8 px-6 md:w-1/6">
-            <img src="img/Primary Logo (White) 1.png" alt="icon-emp" class="w-[220px] h-[30px]">
-            <div class="flex flex-wrap pt-5 pb-7 gap-4">
-              <img src="img/image 48.png" alt="iso-1" class="w-[50px] h-[49px]">
-              <img src="img/image 46.png" alt="iso-2" class="w-[70px] h-[48]">
+        <div
+          class="self-stretch px-20 py-16 inline-flex flex-col justify-start items-end gap-9"
+        >
+          <div
+            class="self-stretch flex flex-col justify-start items-center gap-12"
+          >
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-3"
+            >
+              <div
+                class="self-stretch justify-start text-teal-500 text-base font-normal font-['Roboto'] leading-normal"
+              >
+                OUR PROVEN PROCESS
+              </div>
+              <div
+                class="self-stretch flex flex-col justify-start items-start gap-3"
+              >
+                <div class="w-96 justify-start">
+                  <span
+                    class="text-slate-600 text-4xl font-normal font-['Roboto'] leading-10"
+                    >Streamlined Approach to </span
+                  ><span
+                    class="text-slate-600 text-4xl font-bold font-['Roboto'] leading-10"
+                    >Success</span
+                  >
+                </div>
+                <div
+                  class="w-96 justify-start text-slate-600 text-xs font-normal font-['Roboto'] leading-none"
+                >
+                  At PT Era Mitra Perdana, we believe in a smooth, transparent,
+                  and effective collaboration process that ensures the best
+                  results for our clients. Here's how we work together to bring
+                  your laboratory and scientific equipment needs to life
+                </div>
+              </div>
             </div>
-            <img src="img/inaproce white 1.png" alt="inaproc" class="w-[180px] h-[45px]">
+            <div
+              class="self-stretch flex flex-col justify-center items-center gap-6"
+            >
+              <div class="self-stretch inline-flex justify-start items-center">
+                <div class="w-[653px] flex justify-start items-start gap-3">
+                  <div
+                    class="p-2.5 bg-neutral-100 rounded-[30px] shadow-[0px_4px_2px_0px_rgba(0,0,0,0.12)] flex justify-start items-center gap-2.5"
+                  >
+                    <div class="w-9 h-9 relative overflow-hidden">
+                      <img
+                        src="img/consultation & solutions.png"
+                        alt="consultation"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1 pb-6 inline-flex flex-col justify-start items-start gap-1.5"
+                  >
+                    <div
+                      class="self-stretch justify-start text-neutral-500 text-base font-normal font-['Roboto'] leading-normal"
+                    >
+                      STEP 1
+                    </div>
+                    <div
+                      class="self-stretch flex flex-col justify-start items-start gap-3"
+                    >
+                      <div
+                        class="self-stretch justify-start text-slate-600 text-3xl font-medium font-['Roboto'] leading-9"
+                      >
+                        <h2>Initial Consultation & Customized Solutions</h2>
+                      </div>
+                      <div
+                        class="self-stretch justify-start text-slate-600 text-base font-normal font-['Roboto'] leading-normal"
+                      >
+                        <p>
+                          We begin by understanding your specific needs,
+                          challenges, and goals. Then, we develop tailored
+                          solutions, providing a selection of equipment and
+                          services that match your budget and objectives, backed
+                          by our industry expertise and trusted global brands.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex-1 self-stretch flex justify-start items-start gap-3"
+                >
+                  <div
+                    class="p-2.5 bg-neutral-100 rounded-[30px] shadow-[0px_4px_2px_0px_rgba(0,0,0,0.12)] flex justify-start items-center gap-2.5"
+                  >
+                    <div class="w-9 h-9 relative overflow-hidden">
+                      <img src="img/Group.png" alt="group" />
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1 pb-6 inline-flex flex-col justify-start items-start gap-1.5"
+                  >
+                    <div
+                      class="self-stretch justify-start text-neutral-500 text-base font-normal font-['Roboto'] leading-normal"
+                    >
+                      STEP 2
+                    </div>
+                    <div
+                      class="self-stretch h-32 flex flex-col justify-between items-start"
+                    >
+                      <div
+                        class="self-stretch justify-start text-slate-600 text-3xl font-medium font-['Roboto'] leading-9"
+                      >
+                        Product Selection & Supply
+                      </div>
+                      <div
+                        class="self-stretch justify-start text-slate-600 text-base font-normal font-['Roboto'] leading-normal"
+                      >
+                        Based on your needs, we provide a range of equipment and
+                        services that match your budget and objectives. Our
+                        recommendations are backed by our deep industry
+                        knowledge and access to top global brands.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="self-stretch inline-flex justify-start items-start">
+                <div class="w-[652px] flex justify-start items-start gap-3">
+                  <div
+                    class="p-2.5 bg-neutral-100 rounded-[30px] shadow-[0px_4px_2px_0px_rgba(0,0,0,0.12)] flex justify-start items-center gap-2.5"
+                  >
+                    <div class="w-9 h-9 relative overflow-hidden">
+                      <img
+                        src="img/instalations & Setup.png"
+                        alt="instalations"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="w-[466px] pb-6 inline-flex flex-col justify-start items-start gap-1.5"
+                  >
+                    <div
+                      class="self-stretch justify-start text-neutral-500 text-base font-normal font-['Roboto'] leading-normal"
+                    >
+                      STEP 3
+                    </div>
+                    <div
+                      class="self-stretch h-32 flex flex-col justify-between items-start"
+                    >
+                      <div
+                        class="self-stretch justify-start text-slate-600 text-3xl font-medium font-['Roboto'] leading-9"
+                      >
+                        Professional Installation & Setup
+                      </div>
+                      <div
+                        class="self-stretch justify-start text-slate-600 text-base font-normal font-['Roboto'] leading-normal"
+                      >
+                        Our experienced technicians manage the installation and
+                        setup of your equipment, ensuring everything runs
+                        smoothly and is fully operational from day one.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-[628px] flex justify-start items-start gap-3">
+                  <div
+                    class="p-2.5 bg-neutral-100 rounded-[30px] shadow-[0px_4px_2px_0px_rgba(0,0,0,0.12)] flex justify-start items-center gap-2.5"
+                  >
+                    <div class="w-9 h-9 relative overflow-hidden">
+                      <img src="img/partnership.png" alt="partnership" />
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1 pb-6 inline-flex flex-col justify-start items-start gap-1.5"
+                  >
+                    <div
+                      class="self-stretch justify-start text-neutral-500 text-base font-normal font-['Roboto'] leading-normal"
+                    >
+                      STEP 4
+                    </div>
+                    <div
+                      class="self-stretch flex flex-col justify-start items-start gap-3"
+                    >
+                      <div
+                        class="self-stretch justify-start text-slate-600 text-3xl font-medium font-['Roboto'] leading-9"
+                      >
+                        Ongoing Support & Continuous Partnership
+                      </div>
+                      <div
+                        class="self-stretch justify-start text-slate-600 text-base font-normal font-['Roboto'] leading-normal"
+                      >
+                        Our relationship extends beyond installation. We provide
+                        ongoing support, maintenance, and training to ensure
+                        optimal equipment performance. We also stay engaged with
+                        regular check-ins, updates on the latest technology, and
+                        adjustments to keep you ahead in your industry.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="w-full md:w-1/5 px-2">
-            <h2 class="text-white text-lg font-light pb-5">Head Office - Jakarta</h2>
-            <p class="text-sm tracking-wide text-white pb-3">Ruko Buaran Persada, No.31 <br>
-              Jl. Jend. Pol. R. Soekamto, Duren Sawit. <br>
-              Jakarta Timur 13450</p>
-              <p class="text-sm text-white flex py-2 gap-2 tracking-wide"><i data-feather="phone" class="w-[20px] h-[20px]"></i>+62-21-86612458 (Fax: +62-21-86612365)</p>  
-              <p class="text-sm text-white flex gap-2 tracking-wider"><i data-feather="mail" class="w-[20px] h-[20px]"></i>sales@eramitra.com</p>  
+          <div
+            data-property-1="Default"
+            class="w-56 pl-3 pr-2.5 py-1 bg-teal-500 rounded-3xl shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex justify-start items-center gap-3"
+          >
+            <div
+              class="flex-1 justify-start text-white text-sm font-medium font-['Roboto'] leading-tight"
+            >
+              Make an Appointment
+            </div>
+            <div
+              class="p-2.5 bg-white rounded-3xl flex justify-start items-center gap-2.5"
+            >
+              <div class="w-6 h-6 relative overflow-hidden">
+                <div
+                  class="w-3.5 h-3.5 left-[5px] top-[5px] absolute outline outline-offset-[-1px] outline-zinc-800"
+                ></div>
+              </div>
+            </div>
           </div>
-          <div class="w-full md:w-1/5 px-4">
-            <h2 class="text-white text-lg font-light pb-5">Branch Office - Surabaya</h2>
-            <p class="text-sm tracking-wide text-white pb-3">Jl. Kebon Sari V No. 7G - Surabaya</p>
-            <p class="text-sm text-white flex py-2 gap-2 tracking-wide"><i data-feather="phone" class="w-[20px] h-[20px]"></i>
-              +62-31-8298235 (Fax: +62-31-8298235)</p>  
-              <p class="text-sm text-white flex gap-2 tracking-wider"><i data-feather="mail" class="w-[20px] h-[20px]"></i>emp.sby@eramitra.com</p>
-          </div>
-          <div class="w-full md:w-1/8 px-4">
-            <ul class="text-white text-base font-semibold">
-              <li>
-                <a href="#home" class="inline-block mb-4">Home</a>
-              </li>
-              <li>
-                <a href="#brand" class="inline-block mb-4">Brand</a>
-              </li>
-              <li>
-                <a href="#industry" class="inline-block mb-4">Industry</a>
-              </li>
-              <li>
-                <a href="#application" class="inline-block mb-4">Application</a>
-              </li>
-            </ul>
-
-          </div>
-          <div class="w-full md:w-1/8 px-2">
-            <ul class="text-white text-base font-semibold">
-              <li>
-                <a href="#home" class="inline-block mb-4">About Us</a>
-              </li>
-              <li>
-                <a href="#brand" class="inline-block mb-4">News & Info</a>
-              </li>
-              <li>
-                <a href="career.html" class="inline-block mb-4">Career</a>
-              </li>
-              <li>
-                <a href="#application" class="inline-block mb-4">Contact Us</a>
-              </li>
-            </ul>
-
-          </div>
-          <div class="w-full md:w-1/8 text-end pr-8">  
-          <a href="https:instagram.com" target="_blank"><i class="fa-brands fa-instagram text-4xl text-white px-5"></i></a>
-          <a href="https:linkedin.com" target="_blank"><i class="fa-brands fa-linkedin text-4xl text-white"></i></a> 
         </div>
       </div>
-      <div class="w-full mt-20 px-18 mx-auto">
-        <div class="flex items-center justify-center mb-5 border-t border-white mx-auto">
-        <p class="text-white text-sm text-center pt-10 pb-10 tracking-wide">&copy; 2025 PT. Era Mitra Perdana. All right reserved.</p>
-      </div>
-      </div>
+    </section>
+    <!-- Streamline Approach End -->
 
+    <!-- Divers Sectors Start -->
+    <section>
+      <div class="container mx-auto">
+        <div
+          class="w-full self-stretch px-20 py-16 bg-stone-100 inline-flex flex-col justify-center items-center gap-16"
+        >
+          <div class="w-[681px] flex flex-col justify-start items-center gap-6">
+            <div class="w-80 flex flex-col justify-start items-center gap-6">
+              <div
+                class="self-stretch text-center justify-start text-teal-500 text-base font-normal font-['Roboto'] leading-normal"
+              >
+                INDUSTRY WE SERVERSE
+              </div>
+              <div class="self-stretch text-center justify-start">
+                <span
+                  class="text-slate-600 text-4xl font-normal font-['Roboto'] leading-10"
+                  >Tailored Solutions for<br /></span
+                ><span
+                  class="text-slate-600 text-4xl font-bold font-['Roboto'] leading-10"
+                  >Diverse Sectors</span
+                >
+              </div>
+            </div>
+            <div
+              class="self-stretch text-center justify-start text-slate-600 text-base font-normal font-['Roboto'] leading-normal"
+            >
+              Explore the major industries benefiting from our specialized
+              products. We cater to a variety of sectors, ensuring tailored
+              solutions that meet the unique needs of each industry.
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-col justify-center items-center gap-9"
+          >
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-9"
+            >
+              <div
+                class="self-stretch inline-flex justify-center items-center gap-6"
+              >
+                <div
+                  class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+                >
+                  <div
+                    class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                  >
+                    <div class="w-10 h-10 relative overflow-hidden">
+                      <div
+                        class="w-5 h-2 left-[10.59px] top-[13.12px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-10 h-7 left-0 top-[11.25px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-6 h-3 left-[7.86px] top-0 absolute bg-teal-500"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Agriculture
+                  </div>
+                </div>
+                <div
+                  class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+                >
+                  <div
+                    class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                  >
+                    <div class="w-10 h-10 relative overflow-hidden">
+                      <div
+                        class="w-8 h-3 left-[3.33px] top-[3.33px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-2 h-4 left-[27.60px] top-[17.25px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-2 h-4 left-[16.36px] top-[17.25px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-2 h-4 left-[5.12px] top-[17.25px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-8 h-[1.33px] left-[3.34px] top-[35.33px] absolute bg-teal-500"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Archeological
+                  </div>
+                </div>
+                <div
+                  class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+                >
+                  <div
+                    class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                  >
+                    <div class="w-10 h-10 relative overflow-hidden">
+                      <div
+                        class="w-5 h-5 left-[5.35px] top-[5px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-2.5 h-2.5 left-[6.60px] top-[25.62px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-1.5 h-1 left-[17.23px] top-[25.62px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-1 h-[1.25px] left-[15.98px] top-[30.62px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-3.5 h-9 left-[21.05px] top-[1.88px] absolute bg-teal-500"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Automotive
+                  </div>
+                </div>
+                <div
+                  class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+                >
+                  <div
+                    class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                  >
+                    <div class="w-10 h-10 relative overflow-hidden">
+                      <div
+                        class="w-2.5 h-2 left-[7.20px] top-[3.88px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-3.5 h-2.5 left-[18.55px] top-[0.57px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-5 h-7 left-[7.45px] top-[10.53px] absolute bg-teal-500"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Biotechnology
+                  </div>
+                </div>
+                <div
+                  class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+                >
+                  <div
+                    class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                  >
+                    <div class="w-10 h-10 relative overflow-hidden">
+                      <div
+                        class="w-8 h-9 left-[4.64px] top-[1.25px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-4 h-2 left-[6.95px] top-[18.03px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-4 h-2 left-[6.95px] top-[8.69px] absolute bg-teal-500"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Battery
+                  </div>
+                </div>
+              </div>
+              <div
+                class="self-stretch inline-flex justify-center items-center gap-6"
+              >
+                <div
+                  class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+                >
+                  <div
+                    class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                  >
+                    <div class="w-10 h-10 relative overflow-hidden">
+                      <div
+                        class="w-4 h-7 left-[19.71px] top-[6.26px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-3.5 h-9 left-[2.81px] top-[2.16px] absolute bg-teal-500"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Essentials Oil
+                  </div>
+                </div>
+                <div
+                  class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+                >
+                  <div
+                    class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                  >
+                    <div class="w-10 h-10 relative overflow-hidden">
+                      <div
+                        class="w-5 h-0.5 left-[1.33px] top-[10.67px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-4 h-[1.33px] left-[3.08px] top-[8px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-4 h-6 left-[2.72px] top-[14px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-6 h-1.5 left-[14.67px] top-[33.33px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-[4.81px] h-1.5 left-[7.19px] top-[1.33px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-6 h-[2.67px] left-[14.67px] top-[29.33px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-6 h-2 left-[14.67px] top-[17.33px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-6 h-[3.33px] left-[14.67px] top-[26.67px] absolute bg-teal-500"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Food & Beverage
+                  </div>
+                </div>
+                <div
+                  class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+                >
+                  <div
+                    class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                  >
+                    <div class="w-10 h-10 relative overflow-hidden">
+                      <div
+                        class="w-2.5 h-[2.50px] left-[12.85px] top-[6.88px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-6 h-9 left-[5.62px] top-[2.50px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-[2.51px] h-8 left-[31.87px] top-[6.34px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-[2.50px] h-8 left-[28.12px] top-[6.81px] absolute bg-teal-500"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Food Packaging
+                  </div>
+                </div>
+                <div
+                  class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+                >
+                  <div
+                    class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                  >
+                    <div class="w-10 h-10 relative overflow-hidden">
+                      <div
+                        class="w-2 h-[5px] left-[28.75px] top-[32.50px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-2 h-[5px] left-[23.75px] top-[26.25px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-2 h-[5px] left-[13.75px] top-[26.25px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-2 h-[5px] left-[18.75px] top-[32.50px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-2 h-[5px] left-[8.75px] top-[32.50px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-3 h-2 left-[7.50px] top-[12.50px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-6 h-7 left-[2.50px] top-[2.50px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-2 h-[5px] left-[18.75px] top-[20px] absolute bg-teal-500"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Building Material
+                  </div>
+                </div>
+                <div
+                  class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+                >
+                  <div
+                    class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                  >
+                    <div class="w-10 h-10 relative overflow-hidden">
+                      <div
+                        class="w-3 h-2.5 left-[20.46px] top-[23.52px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-6 h-10 left-[14.23px] top-0 absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-5 h-5 left-[1.18px] top-[20.96px] absolute bg-teal-500"
+                      ></div>
+                      <div
+                        class="w-[3.28px] h-[3.28px] left-[8.77px] top-[29.20px] absolute origin-top-left rotate-[-11.01deg] bg-slate-600"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Catalyst
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="self-stretch inline-flex justify-center items-center gap-6"
+            >
+              <div
+                class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+              >
+                <div
+                  class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                >
+                  <div class="w-10 h-10 relative overflow-hidden">
+                    <div
+                      class="w-5 h-3.5 left-[2.24px] top-[26.26px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-4 h-[4.77px] left-[5.21px] top-0 absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-6 h-5 left-[1.25px] top-[7.11px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-3.5 h-1 left-[24.04px] top-[7.11px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-4 h-6 left-[22.42px] top-[14.14px] absolute bg-teal-500"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                >
+                  Ceramics
+                </div>
+              </div>
+              <div
+                class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+              >
+                <div
+                  class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                >
+                  <div class="w-10 h-10 relative overflow-hidden">
+                    <div
+                      class="w-8 h-8 left-[4.61px] top-[5.71px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-3.5 h-1 left-[12.76px] top-[1.35px] absolute bg-teal-500"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                >
+                  Chemical
+                </div>
+              </div>
+              <div
+                class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+              >
+                <div
+                  class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                >
+                  <div class="w-10 h-10 relative overflow-hidden">
+                    <div
+                      class="w-[2.50px] h-[2.50px] left-[20px] top-[32.50px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-4 h-2 left-[13.12px] top-[30px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-1 h-[2.50px] left-[30.54px] top-[35px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-3 h-[1.25px] left-[15px] top-[27.50px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-1 h-[1.25px] left-[29.38px] top-[20px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-3.5 h-6 left-[4.38px] top-[12.50px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-1.5 h-[2.50px] left-[8.86px] top-[8.75px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-2 h-[1.21px] left-[9.62px] top-[2.54px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-2.5 h-[2.47px] left-[17.89px] top-[23.78px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-3 h-[1.25px] left-[25.62px] top-[13.75px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-3 h-4 left-[25.71px] top-[16.25px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-1.5 h-[2.50px] left-[8.75px] top-[18.12px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-[2.50px] h-[2.50px] left-[10.62px] top-[5px] absolute bg-teal-500"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                >
+                  Cosmetic
+                </div>
+              </div>
+              <div
+                class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+              >
+                <div
+                  class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                >
+                  <div class="w-10 h-10 relative overflow-hidden">
+                    <div
+                      class="w-8 h-9 left-[3.84px] top-[1.27px] absolute bg-teal-500"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                >
+                  Electronic Industry
+                </div>
+              </div>
+              <div
+                class="w-48 px-3 py-2 inline-flex flex-col justify-start items-center gap-2"
+              >
+                <div
+                  class="h-16 px-3 py-2.5 bg-neutral-100 rounded-[30px] shadow-[1px_2px_2px_0px_rgba(0,0,0,0.08)] inline-flex justify-center items-center gap-2.5"
+                >
+                  <div class="w-10 h-10 relative overflow-hidden">
+                    <div
+                      class="w-1 h-[2.76px] left-[4.14px] top-0 absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-1 h-[2.76px] left-[4.14px] top-[6.90px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-1 h-[1.38px] left-[3.45px] top-[4.14px] absolute bg-teal-500"
+                    ></div>
+                    <div
+                      class="w-10 h-10 left-[0.69px] top-[1.38px] absolute bg-teal-500"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="self-stretch text-center justify-start text-slate-600 text-xl font-medium font-['Roboto'] leading-7"
+                >
+                  Fragrances
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="inline-flex justify-start items-center gap-3">
+            <div
+              class="justify-start text-teal-500 text-xl font-medium font-['Roboto'] leading-7"
+            >
+              More Industries
+            </div>
+            <div
+              data-property-1="Default"
+              class="p-1 bg-white rounded-[10px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.10)] flex justify-start items-center gap-2.5"
+            >
+              <div class="w-3 h-3 relative overflow-hidden">
+                <div
+                  class="w-1.5 h-1.5 left-[2.50px] top-[2.50px] absolute outline outline-offset-[-0.50px] outline-teal-500"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Divers Sectors End -->
+
+    <!-- Section Customer Start -->
+    <section>
+      <div class="container mx-auto">
+        <div
+          class="w-full self-stretch py-16 inline-flex flex-col justify-start items-center gap-12"
+        >
+          <div
+            class="w-[1240px] text-center justify-start text-teal-500 text-3xl font-medium font-['Roboto'] leading-9"
+          >
+            Trusted by Leading Businesses
+          </div>
+          <div
+            class="self-stretch h-80 px-20 flex flex-col justify-start items-center gap-16"
+          >
+            <div class="self-stretch inline-flex justify-between items-center">
+              <img class="w-40 h-24" src="https://placehold.co/160x99" />
+              <img class="w-24 h-28" src="https://placehold.co/100x105" />
+              <img class="w-24 h-16" src="https://placehold.co/100x61" />
+              <img class="w-20 h-28" src="https://placehold.co/80x113" />
+              <div class="w-24 h-24 relative overflow-hidden">
+                <div class="w-24 h-24 left-0 top-[0.03px] absolute"></div>
+                <div
+                  class="w-1 h-1 left-0 top-[85.10px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-3.5 h-px left-[42.10px] top-0 absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-20 h-20 left-[10.31px] top-[1.56px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-1 left-[7.82px] top-[85.10px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.35px] h-1 left-[34.78px] top-[90.61px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.33px] h-1 left-[16.31px] top-[85.12px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-1 left-[19.13px] top-[90.61px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-1 left-[27.62px] top-[85.12px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[77.20px] top-[85.12px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[51.08px] top-[90.65px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[63.73px] top-[90.63px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[37.44px] top-[85.13px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-1 left-[59.10px] top-[90.60px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.39px] h-1 left-[88.52px] top-[85.09px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[48.09px] top-[85.12px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[64.72px] top-[85.11px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-1 left-[43.93px] top-[90.59px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-1 left-[52.02px] top-[85.11px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-1 left-[68.66px] top-[85.11px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.33px] h-1 left-[82.86px] top-[85.13px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[23.13px] top-[90.65px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[67.72px] top-[90.65px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.34px] h-1 left-[55.24px] top-[90.60px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-1 left-[56.57px] top-[85.10px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-2 h-11 left-[83.86px] top-[20.09px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.20px] h-1 left-[71.35px] top-[90.62px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1.5 h-10 left-[8.28px] top-[25.78px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-1 left-[32.95px] top-[85.11px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-1 left-[72.88px] top-[85.11px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-1 left-[76.54px] top-[90.63px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[92.68px] top-[85.13px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[96.67px] top-[85.11px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.01px] h-1 left-[12.64px] top-[85.13px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.01px] h-1 left-[4.16px] top-[85.13px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.01px] h-1 left-[26.95px] top-[90.63px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[60.57px] top-[85.13px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3px] h-1 left-[23.96px] top-[85.13px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-8 h-1 left-[31.95px] top-[79.12px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[30.78px] top-[90.65px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.16px] h-1 left-[20.13px] top-[85.13px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[2.83px] h-1 left-[38.93px] top-[90.65px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[2.83px] h-1 left-[43.09px] top-[85.30px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[0.83px] h-1 left-[46.42px] top-[85.13px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[0.83px] h-1 left-[42.27px] top-[90.65px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[0.83px] h-1 left-[75.21px] top-[90.65px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[0.66px] h-1 left-[49.58px] top-[90.65px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[0.66px] h-1 left-[87.02px] top-[85.13px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[0.67px] h-1 left-[31.78px] top-[85.13px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[5.16px] h-1.5 left-[76.87px] top-[67.25px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[3.34px] h-[3.36px] left-[18.96px] top-[10.55px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-0.5 left-[66.89px] top-[77.45px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-[0.23px] left-[19.01px] top-[72.22px] absolute origin-top-left rotate-[-45.16deg] bg-slate-600"
+                ></div>
+                <div
+                  class="w-0.5 h-1 left-[12.13px] top-[20.76px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-1 h-[0.27px] left-[29.55px] top-[5.23px] absolute origin-top-left rotate-[-26.65deg] bg-slate-600"
+                ></div>
+                <div
+                  class="w-[2.67px] h-0.5 left-[73.05px] top-[73.77px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-0.5 h-[2.68px] left-[81.70px] top-[15.57px] absolute bg-slate-600"
+                ></div>
+                <div
+                  class="w-[0.23px] h-[3.16px] left-[15.33px] top-[64.98px] absolute origin-top-left rotate-[-37.05deg] bg-slate-600"
+                ></div>
+                <div
+                  class="w-2.5 h-3 left-[34.95px] top-[16.08px] absolute"
+                ></div>
+                <div
+                  class="w-3.5 h-1 left-[24.28px] top-[49.97px] absolute"
+                ></div>
+                <div
+                  class="w-2.5 h-2 left-[70.21px] top-[57.38px] absolute"
+                ></div>
+                <div
+                  class="w-2.5 h-1.5 left-[57.74px] top-[54.37px] absolute"
+                ></div>
+                <div
+                  class="w-2 h-2 left-[39.10px] top-[58.38px] absolute"
+                ></div>
+                <div
+                  class="w-1 h-[1.69px] left-[20.96px] top-[54.36px] absolute"
+                ></div>
+                <div
+                  class="w-[1.73px] h-px left-[35.61px] top-[92.95px] absolute"
+                ></div>
+                <div
+                  class="w-[1.50px] h-px left-[35.61px] top-[91.32px] absolute"
+                ></div>
+                <div
+                  class="w-[1.63px] h-px left-[19.97px] top-[91.32px] absolute"
+                ></div>
+                <div
+                  class="w-[1.67px] h-[1.24px] left-[28.45px] top-[85.77px] absolute"
+                ></div>
+                <div
+                  class="w-0.5 h-[2.87px] left-[59.91px] top-[91.29px] absolute"
+                ></div>
+                <div
+                  class="w-0.5 h-[2.92px] left-[89.35px] top-[85.77px] absolute"
+                ></div>
+                <div
+                  class="w-0.5 h-[2.69px] left-[55.91px] top-[91.31px] absolute"
+                ></div>
+                <div
+                  class="w-px h-[1.35px] left-[34.28px] top-[86.30px] absolute"
+                ></div>
+                <div
+                  class="w-px h-[1.34px] left-[74.21px] top-[86.30px] absolute"
+                ></div>
+                <div
+                  class="w-px h-[1.50px] left-[77.87px] top-[91.66px] absolute"
+                ></div>
+                <div
+                  class="w-[1.50px] h-[1.21px] left-[97.50px] top-[85.79px] absolute"
+                ></div>
+                <div
+                  class="w-[1.31px] h-px left-[27.79px] top-[91.32px] absolute"
+                ></div>
+              </div>
+              <img class="w-24 h-24" src="https://placehold.co/100x100" />
+            </div>
+            <div
+              class="self-stretch flex-1 px-20 inline-flex justify-center items-center gap-9"
+            >
+              <img class="w-28 h-12" src="https://placehold.co/120x48" />
+              <img
+                class="w-36 h-11 border border-black"
+                src="https://placehold.co/150x45"
+              />
+              <img class="w-36 h-11" src="https://placehold.co/150x46" />
+              <img class="w-36 h-16" src="https://placehold.co/150x62" />
+              <img class="w-36 h-9" src="https://placehold.co/150x37" />
+              <img class="w-36 h-10" src="https://placehold.co/150x39" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Customer End -->
+
+    <!-- CTA Bottom Start -->
+    <section>
+      <div class="container mx-auto flex justify-center items-center">
+        <div
+          class="w-[1080px] px-8 py-16 bg-stone-100 rounded-[20px] inline-flex justify-between items-center"
+        >
+          <div
+            class="w-80 inline-flex flex-col justify-start items-start gap-7"
+          >
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-6"
+            >
+              <div
+                class="self-stretch flex flex-col justify-start items-start gap-2"
+              >
+                <div
+                  class="self-stretch justify-start text-teal-500 text-base font-normal font-['Roboto'] leading-normal"
+                >
+                  TAKE THE NEXT STEP FORWARD
+                </div>
+                <div class="w-72 justify-start">
+                  <span
+                    class="text-slate-600 text-5xl font-normal font-['Roboto'] leading-[56px]"
+                    >Connect with<br />us for </span
+                  ><span
+                    class="text-slate-600 text-5xl font-bold font-['Roboto'] leading-[56px]"
+                    >Tailored<br />Solutions</span
+                  >
+                </div>
+              </div>
+              <div
+                class="self-stretch justify-start text-slate-600 text-base font-normal font-['Roboto'] leading-normal"
+              >
+                Whether you’re looking to boost efficiency, ensure quality, or
+                streamline your processes, our team is here to help you achieve
+                your goals
+              </div>
+            </div>
+            <div
+              data-property-1="Default"
+              class="w-56 pl-3 pr-2.5 py-1 bg-teal-500 rounded-3xl shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex justify-start items-center gap-3"
+            >
+              <div
+                class="flex-1 justify-start text-white text-sm font-medium font-['Roboto'] leading-tight"
+              >
+                Unlock Your Next Step
+              </div>
+              <div
+                class="p-2.5 bg-white rounded-3xl flex justify-start items-center gap-2.5"
+              >
+                <div class="w-6 h-6 relative overflow-hidden">
+                  <div
+                    class="w-3.5 h-3.5 left-[5px] top-[5px] absolute outline outline-offset-[-1px] outline-slate-600"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            class="w-[560px] h-[560px] rounded-[30px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.10)]"
+            src="https://placehold.co/560x560"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- CTA Bottom End -->
+
+    <footer class="pt-[186px]">
+      <div class="container mx-auto">
+        <div
+          data-property-1="3"
+          class="w-full h-96 p-16 bg-teal-500 inline-flex flex-col justify-between items-center overflow-hidden"
+        >
+          <div class="self-stretch inline-flex justify-start items-start gap-8">
+            <div class="inline-flex flex-col justify-start items-start gap-8">
+              <div class="flex flex-col justify-start items-start gap-3">
+                <img class="w-64 h-8" src="https://placehold.co/250x34" />
+                <div class="inline-flex justify-start items-center gap-3">
+                  <img class="w-14 h-14" src="https://placehold.co/60x56" />
+                  <img class="w-16 h-12" src="https://placehold.co/70x48" />
+                </div>
+              </div>
+              <img class="w-48 h-14" src="https://placehold.co/200x55" />
+            </div>
+            <div class="w-[556px] flex justify-start items-start gap-6">
+              <div
+                class="flex-1 inline-flex flex-col justify-start items-start gap-3"
+              >
+                <div
+                  class="self-stretch flex flex-col justify-start items-start gap-6"
+                >
+                  <div
+                    class="self-stretch justify-start text-white text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Head Office - Jakarta
+                  </div>
+                  <div
+                    class="self-stretch justify-start text-white text-xs font-normal font-['Roboto'] leading-none"
+                  >
+                    Ruko Buaran Persada, No.31<br />Jl. Jend. Pol. R. Soekamto,
+                    Duren Sawit.<br />Jakarta Timur 13450
+                  </div>
+                </div>
+                <div
+                  class="self-stretch flex flex-col justify-start items-start gap-3"
+                >
+                  <div
+                    class="self-stretch inline-flex justify-start items-center gap-3"
+                  >
+                    <div class="w-4 h-4 relative">
+                      <div class="w-4 h-4 left-[0.02px] top-0 absolute">
+                        <i
+                          class="fa-solid fa-phone text-white text-sm/8 text-start"
+                        ></i>
+                      </div>
+                    </div>
+                    <div
+                      class="justify-start text-white text-xs font-normal font-['Roboto'] leading-none"
+                    >
+                      +62-21-86612458 (Fax: +62-21-86612365)
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch inline-flex justify-start items-center gap-3"
+                  >
+                    <div class="w-4 h-4 relative overflow-hidden">
+                      <div
+                        class="w-3.5 h-[4.96px] left-[0.82px] top-[8.66px] absolute bg-Background-color-primary"
+                      ></div>
+                      <div
+                        class="w-3.5 h-2 left-[0.82px] top-[2.38px] absolute bg-Background-color-primary"
+                      ></div>
+                      <div
+                        class="w-[4.97px] h-2.5 left-0 top-[3.16px] absolute bg-Background-color-primary"
+                      ></div>
+                      <div
+                        class="w-[4.97px] h-2.5 left-[11.03px] top-[3.16px] absolute bg-Background-color-primary"
+                      ></div>
+                    </div>
+                    <div
+                      class="justify-start text-white text-xs font-normal font-['Roboto'] leading-none"
+                    >
+                      sales@eramitra.com
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex-1 inline-flex flex-col justify-start items-start gap-3"
+              >
+                <div
+                  class="self-stretch flex flex-col justify-start items-start gap-6"
+                >
+                  <div
+                    class="self-stretch justify-start text-white text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Branch Office - Surabaya
+                  </div>
+                  <div
+                    class="self-stretch justify-start text-white text-xs font-normal font-['Roboto'] leading-none"
+                  >
+                    Jl. Kebon Sari V No. 7G - Surabaya
+                  </div>
+                </div>
+                <div
+                  class="self-stretch flex flex-col justify-start items-start gap-3"
+                >
+                  <div
+                    class="self-stretch inline-flex justify-start items-center gap-3"
+                  >
+                    <div class="w-4 h-4 relative overflow-hidden">
+                      <div
+                        class="w-4 h-4 left-[0.02px] top-0 absolute bg-Background-color-primary"
+                      ></div>
+                    </div>
+                    <div
+                      class="justify-start text-white text-xs font-normal font-['Roboto'] leading-none"
+                    >
+                      +62-31-8298235 (Fax: +62-31-8298235)
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch inline-flex justify-start items-center gap-3"
+                  >
+                    <div class="w-4 h-4 relative overflow-hidden">
+                      <div
+                        class="w-3.5 h-[4.96px] left-[0.82px] top-[8.66px] absolute bg-Background-color-primary"
+                      ></div>
+                      <div
+                        class="w-3.5 h-2 left-[0.82px] top-[2.38px] absolute bg-Background-color-primary"
+                      ></div>
+                      <div
+                        class="w-[4.97px] h-2.5 left-0 top-[3.16px] absolute bg-Background-color-primary"
+                      ></div>
+                      <div
+                        class="w-[4.97px] h-2.5 left-[11.03px] top-[3.16px] absolute bg-Background-color-primary"
+                      ></div>
+                    </div>
+                    <div
+                      class="justify-start text-white text-xs font-normal font-['Roboto'] leading-none"
+                    >
+                      emp.sby@eramitra.com
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex-1 flex justify-start items-start gap-6 overflow-hidden"
+            >
+              <div
+                class="flex-1 inline-flex flex-col justify-start items-start"
+              >
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    Home
+                  </div>
+                </div>
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    Brand
+                  </div>
+                </div>
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    Industry
+                  </div>
+                </div>
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    Application
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex-1 inline-flex flex-col justify-start items-start"
+              >
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    About Us
+                  </div>
+                </div>
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    New & Info
+                  </div>
+                </div>
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    Career
+                  </div>
+                </div>
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    Contact Us
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-start items-start gap-3">
+              <div class="w-10 h-10 relative overflow-hidden">
+                <div
+                  class="w-7 h-7 left-[5px] top-[5.40px] absolute bg-Background-color-primary"
+                ></div>
+              </div>
+              <div class="w-10 h-10 relative overflow-hidden">
+                <div
+                  class="w-7 h-7 left-[5px] top-[5.40px] absolute bg-Background-color-primary"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-col justify-center items-center gap-8"
+          >
+            <div class="self-stretch h-px bg-white"></div>
+            <div
+              class="self-stretch inline-flex justify-center items-center gap-8"
+            >
+              <div class="flex-1 flex justify-between items-start">
+                <div
+                  class="flex-1 text-center justify-start text-white text-sm font-normal font-['Roboto'] leading-tight"
+                >
+                  © 2025 PT Era Mitra Perdana. All rights reserved.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
-    
+
     <!-- feather icon -->
     <script>
       feather.replace();
