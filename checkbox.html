@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="src/output.css" rel="stylesheet" />
+  </head>
+  <body class="p-4">
+    <label class="flex items-center space-x-2 cursor-pointer">
+      <input type="checkbox" class="peer hidden" />
+
+      <!-- Kotak checkbox -->
+      <div
+        class="w-5 h-5 rounded border border-[#C2C2C2] peer-checked:bg-primary peer-checked:border-primary flex items-center justify-center"
+      >
+        <!-- Tanda centang -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          stroke="currentColor"
+          class="size-6 peer-checked:block text-white"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </div>
+
+      <!-- Label teks -->
+      <span class="text-gray-800">Saya setuju</span>
+    </label>
+
+    <div class="relative inline-block text-left mt-10">
+      <button
+        onclick="toggleDropdown()"
+        class="bg-blue-600 text-white px-4 py-2 rounded shadow cursor-pointer"
+      >
+        Pilih Opsi
+      </button>
+
+      <!-- Dropdown menu -->
+      <div
+        id="dropdownMenu"
+        class="hidden absolute mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg z-10"
+      >
+        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Opsi 1</a>
+        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Opsi 2</a>
+        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Opsi 3</a>
+      </div>
+    </div>
+
+    <script>
+      function toggleDropdown() {
+        document.getElementById("dropdownMenu").classList.toggle("hidden");
+      }
+    </script>
+  </body>
+</html>

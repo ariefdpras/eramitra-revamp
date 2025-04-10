@@ -8,6 +8,13 @@
       content="era, mitra, perdana, linseis, micromeritics, metone, piccaro, kruss, pp system, milwaukee, acoem, quantum design, nexopart, hermle, hel, nabertherm, kern, procept, mechatech, jp selecta, labtech, otsuka, industry, brands, laboratory, instrument, application, lab"
     />
     <title>PT. Era Mitra Perdana</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- logo web -->
     <link rel="icon" type="image/png" sizes="32x32" href="img/emp.png" />
     <!-- Font Awesome -->
@@ -17,558 +24,919 @@
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
   </head>
   <body>
-    <!-- Navbar Start -->
-    <header
-      class="absolute top-0 left-0 w-full flex flex-col items-center z-10"
-    >
-      <div class="container-navbar w-full bg-primary">
-        <div class="p-2 flex justify-between items-center relative">
-          <div class="flex md:ml-6 lg:ml-16 text-white gap-1 lg:gap-3">
-            <span
-              class="flex items-center justify-center m-1 gap-1 text-xs md:text-sm"
+    <!-- <style>
+      * {
+        border: 1px solid red;
+      }
+    </style> -->
+    <header>
+      <div
+        class="w-full px-20 py-5 bg-teal-500 inline-flex justify-start items-center gap-2.5"
+      >
+        <div class="w-[504px] flex justify-start items-center gap-4">
+          <div class="flex justify-start items-center gap-3">
+            <div class="w-4 h-4 relative overflow-hidden">
+              <div
+                class="w-4 h-4 left-[0.02px] top-0 flex items-center justify-center absolute bg-Background-color-primary"
+              >
+                <i class="fa-solid fa-phone text-white"></i>
+              </div>
+            </div>
+            <div
+              class="w-28 justify-start text-Background-color-primary text-white text-sm font-normal leading-tight"
             >
-              <i data-feather="phone" class="w-[20px]"></i>
-              <p>+62 - 21 - 86612458</p>
-            </span>
-            <span
-              class="flex items-center justify-center m-1 gap-1 text-xs lg:text-sm"
+              <p>+62-21-86612458</p>
+            </div>
+          </div>
+          <div class="flex justify-start items-start gap-1.5">
+            <div class="w-4 h-4 relative overflow-hidden">
+              <div
+                class="w-3.5 h-[4.96px] left-[0.82px] top-[5px] flex items-center absolute bg-primary"
+              >
+                <i class="fa-solid fa-envelope text-white"></i>
+              </div>
+            </div>
+            <div
+              class="w-32 justify-start text-Background-color-primary text-sm text-white font-normal leading-tight"
             >
-              <i data-feather="mail" class="w-[20px]"></i>
               <p>sales@eramitra.com</p>
-            </span>
-            <span
-              class="flex items-center justify-center m-1 gap-1 text-xs lg:text-sm"
-            >
-              <i data-feather="clock" class="w-[20px]"></i>
-              <p id="day">Mon - Fri : 8.00am - 5.00pm</p>
-            </span>
-          </div>
-          <nav
-            id="nav-menu"
-            class="hidden absolute text-white right-0 top-0 max-w-[250px] lg:block lg:static lg:max-w-full lg:shadow-none"
-          >
-            <ul class="block lg:flex">
-              <style>
-                li {
-                  font-family: sans-serif;
-                }
-              </style>
-              <li class="group">
-                <a href="#" class="py-2 mx-7 flex">About Us</a>
-              </li>
-              <li class="group">
-                <a href="#" class="py-2 mx-7 flex">News & Info</a>
-              </li>
-              <li class="group">
-                <a href="#" class="py-2 mx-7 flex">Career</a>
-              </li>
-              <li class="group">
-                <a href="#" class="py-2 mx-7 flex">Contact Us</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-      <div class="flex w-full p-5 justify-between">
-        <div class=" ml-[3%]">
-          <a href="index.html">
-            <img
-              src="img/Primary (Full Color).png"
-              width="220px"
-              height="180px"
-              alt="home"
-            />
-          </a>
-        </div>
-        <div class="second-navbar hidden lg:flex gap-6 mx-8">
-        <!-- Brand -->
-        <div class="cursor-pointer group">
-          <div
-            class="hover:scale-x-105 hover:scale-y-105 transition origin-left scale-x-100 duration-200 ease-in-out"
-          >
-            <a href="#" class="font-semibold text-lg text-primary">Brand</a>
-          </div>
-          <div
-            class="invisible absolute z-50 flex w-full flex-wrap left-0 bg-white shadow-xl mt-0.5 py-1 px-4 text-gray-800 group-hover:visible"
-          >
-            <div class="inner-brand w-1/2 xl:w-1/4">
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Linseis
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Micromeritics
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Piccaro
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                H.e.l
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Otsuka Electronics
-              </a>
-            </div>
-            <div class="inner-brand w-1/2 xl:w-1/4">
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Hermle
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                JP Selecta
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Kern
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Kruss GmBH
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                PP System
-              </a>
-            </div>
-            <div class="inner-brand w-1/2 xl:w-1/4">
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Kruss Optronic
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                LabTech
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                MechaTech
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                MetOne Instrument
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Quantum Design
-              </a>
-            </div>
-            <div class="inner-brand w-1/2 xl:w-1/4">
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Milwaukee
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                NEXOPART
-              </a>
-              <a href="#">
-                <span
-                  ><i data-feather="arrow-right" class="text-primary"></i
-                ></span>
-                Nabertherm
-              </a>
             </div>
           </div>
-        </div>
-        <!-- Industry -->
-        <div class="cursor-pointer group">
-          <div
-            class="hover:scale-x-105 hover:scale-y-105 transition origin-left scale-x-100 duration-200 ease-in-out"
-          >
-            <a href="#" class="font-semibold text-lg text-primary">Industry</a>
-          </div>
-          <div
-            class="invisible absolute z-50 flex w-full flex-wrap left-0 bg-white shadow-xl mt-0.5 py-1 px-4 text-gray-800 group-hover:visible"
-          >
-          <div class="inner-industry w-1/2 p-2 lg:w-1/4">
-            <a href="#">
-            <span><img src="img/pantheon.png" width="25x25" alt="archeological"></span>
-            Archeological
-            </a>
-            <a href="#">
-            <span><img src="img/plant.png" width="25x25" alt="agriculture"></i></span>
-            Agriculture
-            </a>
-            <a href="#">
-            <span><img src="img/gear.png" width="25x25" alt="automotive"></i></span>
-            Automotive
-            </a>
-            
-        </div>
-        <div class="inner-industry w-1/2 p-2  lg:w-1/4">
-            <a href="#">
-            <span><img src="img/battery.png" width="25x25" alt="archeological"></i></span>
-            Battery
-            </a>
-            <a href="#">
-            <span><img src="img/test.png" width="25x25" alt="archeological"></i></span>
-            Biotechnology
-            </a>
-            <a href="#">
-            <span><img src="img/catalytic-converter.png" width="25x25" alt="archeological"></span>
-            Catalyst
-            </a>
-
-        </div>
-        <div class="inner-industry w-1/2 p-2 lg:w-1/4">
-            <a href="#">
-                <span><img src="img/vase.png" width="25x25" alt="ceramics"></i></span>
-                Ceramics
-                </a>
-            <a href="#">
-                <span><img src="img/flask.png" width="25x25" alt="chemical"></i></span>
-                Chemical
-                </a>
-            <a href="#">
-                <span><img src="img/skincare.png" width="25x25" alt="cosmetic"></i></span>
-                Cosmetic
-                </a>
-
-        </div>
-        <div class="inner-industry w-1/2 p-2 lg:w-1/4">
-            <a href="#">
-                <span><img src="img/oil-industry.png" width="25x25" alt="industry"></span>
-                Electronic Industry
-                </a>
-            <a href="#">
-                <span><img src="img/serum.png" width="25x25" alt="oil"></span>
-                Essential Oil
-                </a>
-            <a href="#" class="cursor-pointer flex items-center my-7 italic gap-2 text-primary font-semibold hover:text-white hover:scale-x-105 hover:scale-y-110 transition origin-left scale-x-100 duration-200 ease-in-out">
-                <span class="bg-primary p-1.5 rounded-full shadow-md"><i data-feather="arrow-right" class="text-white"></i></span>
-                See All Industry
-                </a>
-        </div>
-          </div>
-        </div>
-        <!-- Application -->
-        <div class="cursor-pointer group">
-            <div
-              class="hover:scale-x-105 hover:scale-y-105 transition origin-left scale-x-100 duration-200 ease-in-out"
-            >
-              <a href="#" class="font-semibold text-lg text-primary">Application</a>
+          <div class="flex justify-start items-center gap-3">
+            <div class="w-5 h-6 relative overflow-hidden">
+              <div
+                class="w-4 h-4 left-[1.33px] top-[1.33px] flex items-center absolute outline-offset-[-1px] outline-white"
+              >
+                <i class="fa-solid fa-clock text-white"></i>
+              </div>
             </div>
             <div
-              class="invisible absolute z-50 flex w-full flex-wrap left-0 bg-white shadow-xl mt-0.5 py-1 px-4 text-gray-800 group-hover:visible"
+              class="w-44 justify-start text-white text-sm font-normal leading-tight"
             >
-            <div class="inner-application w-1/2 xl:w-1/4">
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                ASTM D7061
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Adiabatic Calorimetri
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Agriculture & Soil Science
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Air Quality
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Atmosphere Science
-                </a>
-                
-            </div>
-            <div class="inner-application w-1/2 xl:w-1/4">
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Automated Continuous Measurement
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Battery Cell Characterization
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Battery Performance
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Battery Safety
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Bio Fuel Research
-                </a>
-  
-            </div>
-            <div class="inner-application w-1/2 xl:w-1/4">
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Breakthrough Analysis
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                CO2 Adsorption
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Canopy Assimilation
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Capillari Method
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Capillari Flow Porosimeter
-                </a>
-  
-            </div>
-            <div class="inner-application w-1/2 xl:w-1/4">
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Carbonylation
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Catalyst
-                </a>
-                <a href="#">
-                <span><i data-feather="arrow-right" class="text-primary"></i></span>
-                Centrifuge
-                </a>
-                <a href="#" class="cursor-pointer flex items-center my-4 italic gap-1 text-primary font-semibold hover:text-white hover:scale-x-105 hover:scale-y-110 transition origin-left scale-x-100 duration-200 ease-in-out">
-                    <span class="bg-primary p-1.5 rounded-full shadow-md"><i data-feather="arrow-right" class="text-white"></i></span>
-                    See All Application
-                    </a>
-            </div>
+              <p>Mon- Fri: 8.00am - 5.00pm</p>
             </div>
           </div>
-          <!-- Searh Form --> 
-            <div class="search-form h-[95%] w-[300px] flex bg-white p-1 rounded-md items-center gap-3 outline-1 transition origin-top ease-in-out duration-300">
-                <a href="#"><img src="img/transparency.png" width="20px" height="20px" alt="search"></a>
-                <input type="search" id="search-box" placeholder="Search Here..." />
-                <label for="search-box" class="cursor-pointer"></label>
+        </div>
+
+        <nav class="flex-1 flex justify-end items-center gap-7">
+          <div class="flex justify-start items-start">
+            <div class="w-28 flex justify-center items-center gap-4">
+              <div
+                data-property-1="Default"
+                class="px-4 flex justify-center items-center gap-2.5"
+              >
+                <div
+                  class="justify-start text-white text-base font-medium leading-normal"
+                >
+                  <a href="about.html">About Us</a>
                 </div>
-                <!-- Bookmark -->
-                 <div class="bookmark-icon">
-                    <a href="#"><img src="img/bookmark-2.png" width="28px" height="28px" alt="bookmark"></a>
-                 </div>
-           </div>
-        </div>
+              </div>
+            </div>
+            <div
+              data-property-1="Default"
+              class="flex justify-center items-center gap-4"
+            >
+              <div
+                data-property-1="Default"
+                class="px-4 flex justify-center items-center gap-2.5"
+              >
+                <div
+                  class="justify-start text-white text-base font-medium leading-normal"
+                >
+                  <a href="news&info.html"> News & Info</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-28 flex justify-center items-center gap-4">
+              <div
+                data-property-1="Default"
+                class="px-4 flex justify-start items-center gap-2.5"
+              >
+                <div
+                  class="justify-start text-white text-base font-medium leading-normal"
+                >
+                  <a href="career.html"> Career</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-28 px-4 flex justify-center items-center">
+              <div
+                class="justify-start text-white text-base font-medium leading-normal"
+              >
+                <a href="contact.html"> Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
-    <!-- Navbar End -->
+
+    <section>
+      <div
+        data-property-1="Default"
+        class="w-full px-20 bg-white shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex justify-between items-center"
+      >
+        <img class="w-[200px] h-[30px]" src="img/Primary (Full Color).png" />
+        <div class="flex justify-end items-center gap-6">
+          <div class="flex justify-start items-center">
+            <div
+              data-property-1="Default"
+              class="px-4 py-6 flex justify-center items-center gap-2.5 cursor-pointer group"
+            >
+              <div
+                class="justify-start text-teal-500 text-xl font-medium leading-7"
+              >
+                Brand
+              </div>
+              <div
+                class="invisible absolute z-50 flex w-full h-auto flex-wrap left-0 top-31 bg-white shadow-xl px-[48px] py-[24px] group-hover:visible"
+              >
+                <div class="inner-brand w-1/2 xl:w-1/6 mx-auto">
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Linseis
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Micromeritics
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Piccaro
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    H.e.l
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Otsuka Electronics
+                  </a>
+                </div>
+                <div class="inner-brand w-1/2 xl:w-1/6 mx-auto">
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Hermle
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    JP Selecta
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Kern
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Kruss GmBH
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    PP System
+                  </a>
+                </div>
+                <div class="inner-brand w-1/2 xl:w-1/6 mx-auto">
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Kruss Optronic
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    LabTech
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    MechaTech
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    MetOne Instrument
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Quantum Design
+                  </a>
+                </div>
+                <div class="inner-brand w-1/2 xl:w-1/6 mx-auto">
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Milwaukee
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    NEXOPART
+                  </a>
+                  <a href="#">
+                    <span
+                      ><i data-feather="arrow-right" class="text-primary"></i
+                    ></span>
+                    Nabertherm
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              data-property-1="Default"
+              class="px-4 py-6 flex justify-center items-center gap-2.5"
+            >
+              <div
+                class="justify-start text-teal-500 text-xl font-medium leading-7"
+              >
+                Industry
+              </div>
+            </div>
+            <div
+              data-property-1="Default"
+              class="px-4 py-6 flex justify-center items-center gap-2.5"
+            >
+              <div
+                class="justify-start text-teal-500 text-xl font-medium leading-7"
+              >
+                Application
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-72 inline-flex flex-col justify-start items-start gap-2"
+          >
+            <div
+              class="self-stretch p-2.5 bg-white rounded-[10px] outline-1 outline-offset-[-1px] outline-slate-600 inline-flex justify-start items-center gap-4"
+            >
+              <div class="w-full h-4 relative flex items-center gap-2">
+                <a href="#"
+                  ><img
+                    src="img/transparency.png"
+                    width="20px"
+                    height="20px"
+                    alt="search"
+                /></a>
+                <input
+                  class="w-full outline-none text-sm text-black"
+                  type="search"
+                  id="search-box"
+                  placeholder="search"
+                />
+                <label for="search-box" class="cursor-pointer"></label>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-start items-center">
+            <div
+              class="bookmark-icon flex items-center justify-center relative w-8 h-8 overflow-hidden"
+            >
+              <div class="w-6 h-6" title="Bookmark">
+                <a href="#"
+                  ><img src="img/bookmark-2.png" alt="bookmark" />
+                  <span
+                    class="quantity-badge inline-block bg-red-600 text-white text-xs w-4 h-4 text-center rounded-full absolute top-0 right-0"
+                    >4</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header End -->
+    
 
     <!-- Image Section Start -->
-     <section id="about" class="pt-32">
-        <div class="container">
-            <div class="max-w-full">
-                <img src="img/about.png" alt="about" class="w-full">
-            </div>
+    <section>
+      <div
+      data-property-1="Frame 114"
+      class="w-full inline-flex justify-start items-center gap-9"
+    >
+      <div
+        class="w-full h-[600px] relative inline-flex flex-col justify-start items-start gap-2.5"
+      >
+        <div class="w-full h-full absolute z-10 bg-cover"></div>
+        <div class="w-full h-[600px]">
+          <img src="img/about.png" alt="career" class="w-full h-full object-fill aspect-auto">
         </div>
-     </section>
+  </section>
     <!-- Image Section End -->
 
     <!-- Breadcrumbs Start -->
-     <div id="breadcrumbs" class="flex space-x-2 px-2 lg:px-14 pt-10 pb-16">   
-        <a href="index.html" class="text-sm text-gray-700 flex items-center px-2 gap-2.5"><i class="fa-solid fa-house"></i>Home</a>
-        <span class="text-gray-500 text-xs flex items-center justify-center"><i class="fa-solid fa-chevron-right"></i></span>
-        <a href="#" class="text-sm text-primary flex items-center px-2 gap-2.5 pointer-events-none"><i class="fa-solid fa-pen-to-square"></i>About Us</a>
-     </div>
+    <section class="pt-[49px]">
+      <div class="container pl-[80px]">
+        <div
+          data-content="text to icon"
+          data-level="one"
+          data-state="Rest"
+          data-type="without container"
+          class="inline-flex justify-start items-start"
+        >
+          <div
+            data-type="without container"
+            class="flex justify-center items-center gap-2"
+          >
+          <a href="index.html">  
+          <div
+              data-current="False"
+              data-icon="True"
+              data-state="Rest"
+              data-type="Icon+ text"
+              class="flex justify-center items-center gap-2"
+              
+            >
+            
+              <div
+                data-current="False"
+                data-icon="True"
+                data-state="Rest"
+                data-type="Text"
+                class="flex justify-start items-start"
+              >
+                <div class="w-6 h-6 relative overflow-hidden">
+                  <div class="w-6 h-6 left-0 top-0 absolute">
+                    <i class="fa-solid fa-house"></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-current="False"
+                data-icon="False"
+                data-state="Rest"
+                data-type="Text"
+                class="flex justify-center items-center"
+              >
+                <div
+                  class="justify-start text-gray-500 text-sm font-normal font-['Roboto'] leading-tight"
+                >
+                  Home
+                </div>
+              </div>
+            
+            </div>
+        </a>
+            <div class="w-4 h-4 flex justify-center items-center">
+              <i class="fa-solid fa-chevron-right text-xs text-gray-500"></i>
+            </div>
+            <div
+              data-current="True"
+              data-icon="True"
+              data-state="Rest"
+              data-type="Icon+ text"
+              class="flex justify-center items-center gap-2"
+            >
+              <div
+                data-current="True"
+                data-icon="True"
+                data-state="Rest"
+                data-type="Text"
+                class="flex justify-start items-start"
+              >
+                <div class="w-6 h-6 ">
+                    <i class="fa-solid fa-pen-to-square text-primary"></i>
+                </div>
+              </div>
+              <div
+                data-current="True"
+                data-icon="False"
+                data-state="Rest"
+                data-type="Text"
+                class="flex justify-center items-center"
+              >
+                <div
+                  class="justify-start text-teal-500 text-sm font-normal font-['Roboto'] leading-tight"
+                >
+                  About Us
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Breadcrumbs End -->
 
     <!-- Main Section Start -->
      <section id="desc-about" class="pt-14 pb-14">
-        <div class="container">
-            <div class="w-full flex flex-wrap lg:px-14">
-                <div class="w-full lg:w-1/2">
-                <img src="img/about-us.png" alt="about-us" class="w-[600px] h-[387px] object-contain">
-                </div>
-                <div class="w-full lg:w-1/2">
-                    <h2 class="text-base text-primary font-semibold pb-2">About PT Era Mitra Perdana</h2>
-                    <h1 class="text-4xl text-gray-600 font-bold pb-5">Brief Description of the Company</h1>
-                    <p class="text-gray-500 text-base pb-5">PT. Era Mitra Perdana provides Scientific, Laboratory Equipment and Services. Established in Jakarta, <br> We are comitted to provide the best service, open communication and proactively giving suggestion <br>
-                        and alternate solution to support our principals and customers.
-                    </p>
-                    <p class="text-gray-500 text-base">To be the best in Scientific and Laboratory Equipment industry, PT. Era Mitra Perdana is supported by <br> highly qualified personel, high quality product and optimum after sales service. We are highly <br> experienced and a trusted partner for Government Institusions, Universities and Industries to supply, <br> install and provide after sales services in the area of scientific and laboratory equipment since 1999.</p>
+        <div class="container mx-auto flex justify-center items-center">
+          <div class="inline-flex justify-center items-start gap-12">
+            <img class="w-[600px] h-96 rounded-[20px]" src="https://placehold.co/600x387" />
+            <div class="w-[628px] inline-flex flex-col justify-start items-start gap-3">
+                <div class="self-stretch justify-start text-teal-500 text-sm font-medium font-['Roboto'] leading-tight">About PT Era Mitra Perdana</div>
+                <div class="self-stretch flex flex-col justify-start items-start gap-6">
+                    <div class="self-stretch justify-start text-slate-600 text-4xl font-medium font-['Roboto'] leading-10">Brief Description of the Company</div>
+                    <div class="self-stretch justify-start text-slate-600 font-normal font-['Roboto']">
+                      <p class="text-sm leading-tight">PT. Era Mitra Perdana provides Scientific, Laboratory Equipment, and Services. Established in Jakarta, We are committed to provide the best service, open communication, and proactively giving suggestion and alternate solution to support our principals and customers. <br><br>   To be the best in Scientific and Laboratory Equipment industry, PT Era Mitra Perdana is supported by highly qualified personnel, high quality product, and optimum after sales service. We are highly experienced and a trusted partner for Government Institutions, Universities, and Industries to supply, install, and provide after sales services in the area of scientific and laboratory equipment since 1999.</p></div>
                 </div>
             </div>
+        </div>
         </div>
      </section>
     <!-- Main Section End -->
 
+    <!--Section 3point Start-->
+    <section class="pb-16 pt-[131px]">
+      <div class="container mx-auto flex justify-center items-center">
+        <div class="w-[1242px] h-[486px] relative">
+          <div class="w-[600.65px] h-[453px] left-[301.67px] top-0 absolute">
+              <div class="w-16 h-16 left-[360.07px] top-[64.51px] absolute bg-zinc-100 rounded-full"></div>
+              <div class="w-11 h-11 left-[401.06px] top-[317.07px] absolute bg-zinc-100 rounded-full"></div>
+              <div class="w-7 h-7 left-[307.94px] top-[227.41px] absolute origin-top-left rotate-[-26.50deg] bg-zinc-100 rounded-full"></div>
+              <div class="w-44 h-0 left-[83.69px] top-[349.86px] absolute origin-top-left -rotate-45 bg-zinc-100"></div>
+              <div class="w-60 h-60 left-[98.73px] top-0 absolute bg-teal-500 rounded-full">
+                <img src="img/point1.png" alt="eye" class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              </div>
+              <div class="w-20 h-[3.14px] left-[21.70px] top-[122.40px] absolute bg-teal-500"></div>
+              <div class="w-6 h-6 left-0 top-[112.13px] absolute border-4 border-teal-500 bg-white rounded-full"></div>
+              <div class="w-44 h-44 left-[353.66px] top-[134.05px] absolute bg-slate-600 rounded-full">
+                <img src="img/point2.png" alt="eye" class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              </div>
+              <div class="w-14 h-[3.14px] left-[523.80px] top-[217.55px] absolute bg-slate-600"></div>
+              <div class="w-6 h-6 left-[576.97px] top-[207.28px] absolute border-4 border-slate-600 bg-white rounded-full"></div>
+              <div class="w-48 h-48 left-[188.91px] top-[255.14px] absolute bg-gray-900 rounded-full">
+                <img src="img/point3.png" alt="eye" class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              </div>
+              <div class="w-20 h-[3.14px] left-[111.91px] top-[352.50px] absolute bg-gray-900"></div>
+              <div class="w-6 h-6 left-[90.20px] top-[342.23px] absolute border-4 border-gray-900 bg-white rounded-full"></div>
+              
+             
+          </div>
+          <div class="w-52 left-[90px] top-[103px] absolute inline-flex flex-col justify-start items-end gap-1.5">
+              <div class="self-stretch text-right justify-start text-teal-500 text-3xl font-medium font-['Roboto'] leading-9">Vision</div>
+              <div class="self-stretch text-right justify-start text-zinc-800 text-xs font-normal font-['Roboto'] leading-none">To be the best and most reliable partner for our principals and clients in Scientific and Laboratory Equipment Industry.</div>
+          </div>
+          <div class="w-96 left-0 top-[332px] absolute inline-flex flex-col justify-start items-end gap-1.5">
+              <div class="self-stretch text-right justify-start text-gray-900 text-3xl font-medium font-['Roboto'] leading-9">Value</div>
+              <div class="self-stretch text-right justify-start"><span class="text-zinc-800 text-xs font-bold font-['Roboto'] leading-none">Bond:</span><span class="text-zinc-800 text-xs font-normal font-['Roboto'] leading-none"> We aim to be the best and most reliable partner for all stakeholders which we believe started from having a strong bond.<br/></span><span class="text-zinc-800 text-xs font-bold font-['Roboto'] leading-none">Performance :</span><span class="text-zinc-800 text-xs font-normal font-['Roboto'] leading-none"> We are committed to perform in the best way possible in all projects by being a proactive partner.<br/></span><span class="text-zinc-800 text-xs font-bold font-['Roboto'] leading-none">Process :</span><span class="text-zinc-800 text-xs font-normal font-['Roboto'] leading-none"> We believe process is an important part in all projects and are committed to be a reliable partner for our stakeholders along the process.</span></div>
+          </div>
+          <div class="w-80 left-[917px] top-[199px] absolute inline-flex flex-col justify-start items-end gap-1.5">
+              <div class="self-stretch justify-start text-slate-600 text-3xl font-medium font-['Roboto'] leading-9">Mission</div>
+              <div class="self-stretch justify-start text-zinc-800 text-xs font-normal font-['Roboto'] leading-none">Provide high quality product and services with competitive price<br/>Be proactive during the end-to-end process in supporting principals and clients<br/>Continuously learning and sharing insights regarding Scientific and Laboratory Industry<br/>Company digitalization to provide easier access for consumers</div>
+          </div>
+      </div>
+
+      </div>
+    </section>
+    <!--Section 3point End-->
+
     <!-- Section Core Start -->
-     <section id="core" class="pt-14 pb-14">
-        <div class="container">
-            <div class="w-full px-2 lg:px-14">
-                <h4 class="uppercase text-base text-primary pb-2">our core thing</h4>
-                <h1 class="text-4xl text-gray-700 pb-4">Empowering <br><span class="font-bold">Scientific Innovation</span></h1>
-                <p class="text-base/5 text-gray-500">At PT Era Mitra Perdana, our core mission is to empower the scientific <br> community delivering top-quality laboratory equipment and unmatched <br> support. As a dedicated distributor, we focus on:</p>
-                <div class="flex flex-wrap pt-4 lg:pt-14 justify-around 2xl:gap-23">
-                    <div class="w-1/2 xl:w-1/5 border-l-2 border-gray-300 p-2 py-4 my-3">
-                        <h2 class="text-4xl text-primary font-semibold pb-0.5">01.</h2>
-                        <h1 class="text-xl text-gray-600">Quality & <br> Precision</h1>
-                        <p class="text-sm/4 tracking-normal text-gray-500 pt-16">Supplying only the best, ensuring <br> every piece of equipments meets <br> rigorous standards.</p>
-
-                    </div>
-                    <div class="w-1/2 xl:w-1/5 border-l-2 border-gray-300 p-2 py-4 my-3">
-                        <h2 class="text-4xl text-primary font-semibold pb-0.5">02.</h2>
-                        <h1 class="text-xl text-gray-600">Trusted<br>Partnership</h1>
-                        <p class="text-sm/4 tracking-normal text-gray-500 pt-16">Building strong, long-lasting <br> relationships with Government <br> Institutions, Universities and <br> Industries.</p>
-
-                    </div>
-                    <div class="w-1/2 xl:w-1/5 border-l-2 border-gray-300 p-2 py-4 my-3">
-                        <h2 class="text-4xl text-primary font-semibold pb-0.5">03.</h2>
-                        <h1 class="text-xl text-gray-600">Innovative<br>Solutions</h1>
-                        <p class="text-sm/4 tracking-normal text-gray-500 pt-16">Proactively providing expert advice <br> and tailored solutions that drive <br> research and development forward.</p>
-
-                    </div>
-                    <div class="w-1/2 xl:w-1/5 border-l-2 border-gray-300 p-2 py-4 my-3">
-                        <h2 class="text-4xl text-primary font-semibold pb-0.5">04.</h2>
-                        <h1 class="text-xl text-gray-600">Exceptional<br>Service</h1>
-                        <p class="text-sm/4 tracking-normal text-gray-500 pt-16">Offering comperhensive after-sales <br> support, ensuring seamless <br> integration and ongoing success.</p>
-
+     <section id="core" class="mt-[59px] py-[64px]">
+        <div class="container mx-auto">
+          <div class="w-[1440px] px-20 py-16 bg-white inline-flex flex-col justify-start items-start gap-16">
+            <div class="w-[487px] flex flex-col justify-start items-start gap-4">
+                <div class="flex flex-col justify-start items-start gap-2">
+                    <div class="self-stretch justify-start text-teal-500 text-base font-normal font-['Roboto'] leading-normal">OUR CORE THING</div>
+                    <div class="w-80 justify-start"><span class="text-slate-600 text-4xl font-normal font-['Roboto'] leading-10">Empowering </span><span class="text-slate-600 text-4xl font-bold font-['Roboto'] leading-10">Scientific Innovation</span></div>
+                </div>
+                <div class="self-stretch justify-start text-slate-600 text-sm font-normal font-['Roboto'] leading-tight">At PT Era Mitra Perdana, our core mission is to empower the scientific community by delivering top-quality laboratory equipment and unmatched support. As a dedicated distributor, we focus on:</div>
+            </div>
+            <div class="self-stretch inline-flex justify-between items-center">
+                <div class="w-64 self-stretch px-3 py-2.5 border-l-2 border-gray-200 inline-flex flex-col justify-start items-start gap-2.5">
+                    <div class="self-stretch flex flex-col justify-start items-start gap-24">
+                        <div class="w-60 flex flex-col justify-start items-start">
+                            <div class="self-stretch justify-start text-teal-500 text-4xl font-medium font-['Roboto'] leading-10">01.</div>
+                            <div class="self-stretch justify-start text-slate-600 text-3xl font-normal font-['Roboto'] leading-9">Quality & <br/>Precision</div>
+                        </div>
+                        <div class="self-stretch justify-start text-slate-600 text-sm font-medium font-['Roboto'] leading-tight">Supplying only the best, ensuring every piece of equipment meets rigorous standards.</div>
                     </div>
                 </div>
+                <div class="w-64 px-3 py-2.5 border-l-2 border-gray-200 inline-flex flex-col justify-start items-start gap-2.5">
+                    <div class="self-stretch flex flex-col justify-start items-start gap-24">
+                        <div class="self-stretch flex flex-col justify-start items-start">
+                            <div class="self-stretch justify-start text-teal-500 text-4xl font-medium font-['Roboto'] leading-10">02.</div>
+                            <div class="self-stretch justify-start text-slate-600 text-3xl font-normal font-['Roboto'] leading-9">Trusted Partnership</div>
+                        </div>
+                        <div class="self-stretch justify-start text-slate-600 text-sm font-medium font-['Roboto'] leading-tight">Building strong, long-lasting relationships with government institutions, universities, and industries.</div>
+                    </div>
                 </div>
+                <div class="w-64 px-3 py-2.5 border-l-2 border-gray-200 inline-flex flex-col justify-start items-start gap-2.5">
+                    <div class="self-stretch flex flex-col justify-start items-start gap-24">
+                        <div class="self-stretch flex flex-col justify-start items-start">
+                            <div class="self-stretch justify-start text-teal-500 text-4xl font-medium font-['Roboto'] leading-10">03.</div>
+                            <div class="self-stretch justify-start text-slate-600 text-3xl font-normal font-['Roboto'] leading-9">Innovative Solutions</div>
+                        </div>
+                        <div class="self-stretch justify-start text-slate-600 text-sm font-medium font-['Roboto'] leading-tight">Proactively providing expert advice and tailored solutions that drive research and development forward.</div>
+                    </div>
+                </div>
+                <div class="w-64 px-3 py-2.5 border-l-2 border-gray-200 inline-flex flex-col justify-start items-start gap-2.5">
+                    <div class="self-stretch flex flex-col justify-start items-start gap-24">
+                        <div class="self-stretch flex flex-col justify-start items-start">
+                            <div class="self-stretch justify-start text-teal-500 text-4xl font-medium font-['Roboto'] leading-10">04.</div>
+                            <div class="self-stretch justify-start text-slate-600 text-3xl font-normal font-['Roboto'] leading-9">Exceptional Service</div>
+                        </div>
+                        <div class="self-stretch justify-start text-slate-600 text-sm font-medium font-['Roboto'] leading-tight">Offering comprehensive after-sales support, ensuring seamless integration and ongoing success.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
             </div>
         </div>
      </section>
     <!-- Section Core End -->
 
     <!-- Benefit Section Start -->
-     <section class="pt-14 pb-14">
-        <div class="container">
-            <div class="w-full px-2 lg:px-14 pb-6">
-                <h4 class="uppercase text-lg text-primary text-center font-bold tracking-wide pb-2">benefit</h4>
-                <h1 class="text-3xl/8 text-gray-600 font-semibold text-center">Empowering Research and Trusted <br> Equipment and Comperhensive Solutions</h1>
+     <section>
+        <div class="container mx-auto">
+          <div class="w-[1440px] px-20 py-16 inline-flex flex-col justify-start items-center gap-8">
+            <div class="w-[712px] flex flex-col justify-start items-center gap-4">
+                <div class="self-stretch text-center justify-start text-teal-500 text-base font-medium font-['Roboto'] leading-normal">BENEFIT</div>
+                <div class="self-stretch text-center justify-start text-slate-600 text-4xl font-medium font-['Roboto'] leading-10">Empowering Research with Trusted Equipment and Comprehensive Solutions</div>
             </div>
-            <div class="flex flex-wrap items-center justify-center gap-4">
-                <div class="w-[280px] h-[188px] rounded-lg shadow-lg p-4 ">
-                    <div class="w-[44px] h-[44px] bg-primary/20 rounded-lg flex items-center justify-center mb-2">
-                        <img src="img/trusted.png" alt="trusted">
+            <div class="self-stretch flex flex-col justify-start items-center gap-9">
+                <div class="self-stretch inline-flex justify-center items-center gap-6">
+                    <div class="w-72 px-6 py-4 bg-white rounded-[10px] shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-start items-start gap-3">
+                        <div class="p-2.5 bg-teal-100 rounded-md inline-flex justify-start items-center gap-2.5">
+                            <div class="w-6 h-6 relative overflow-hidden">
+                                <div class="w-5 h-6 left-[1.08px] top-[0.52px] absolute bg-teal-500"></div>
+                            </div>
+                        </div>
+                        <div class="self-stretch flex flex-col justify-start items-start gap-2">
+                            <div class="self-stretch justify-start text-teal-500 text-xl font-medium font-['Roboto'] leading-7">Trusted Expertise</div>
+                            <div class="self-stretch justify-start text-slate-600 text-xs font-normal font-['Roboto'] leading-none">Over 20 years of experience in providing reliable scientific equipment and services to industries, universities, and government institutions.</div>
+                        </div>
                     </div>
-                    <h2 class="text-lg text-primary font-semibold pb-2">Trusted Expertise</h2>
-                    <p class="text-xs text-gray-500">Over 20 years experience in providing <br> reliable scientific equipment and services <br> to Government Institutions, Universities and Industries.</p>
-                </div>
-                <div class="w-[280px] h-[188px] rounded-lg shadow-lg p-4 ">
-                    <div class="w-[44px] h-[44px] bg-primary/20 rounded-lg flex items-center justify-center mb-2">
-                        <img src="img/trusted.png" alt="trusted">
+                    <div class="w-72 px-6 py-4 bg-white rounded-[10px] shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-start items-start gap-5">
+                        <div class="self-stretch flex flex-col justify-start items-start gap-3">
+                            <div class="p-2.5 bg-teal-100 rounded-md inline-flex justify-start items-center gap-2.5">
+                                <div class="w-6 h-6 relative overflow-hidden">
+                                    <div class="w-1.5 h-1.5 left-[11.55px] top-[8.25px] absolute bg-teal-500"></div>
+                                    <div class="w-1.5 h-1.5 left-[16.46px] top-[8.25px] absolute bg-teal-500"></div>
+                                    <div class="w-1.5 h-1.5 left-[16.42px] top-[1.50px] absolute bg-teal-500"></div>
+                                    <div class="w-1.5 h-1.5 left-[11.59px] top-[1.50px] absolute bg-teal-500"></div>
+                                    <div class="w-2 h-1.5 left-[4.76px] top-[8.21px] absolute bg-teal-500"></div>
+                                    <div class="w-2 h-1.5 left-[1.71px] top-0 absolute bg-teal-500"></div>
+                                    <div class="w-1 h-2 left-[0.45px] top-[15.38px] absolute bg-teal-500"></div>
+                                    <div class="w-5 h-2 left-[5.32px] top-[16.35px] absolute bg-teal-500"></div>
+                                </div>
+                            </div>
+                            <div class="self-stretch flex flex-col justify-start items-start gap-2">
+                                <div class="self-stretch justify-start text-teal-500 text-xl font-medium font-['Roboto'] leading-7">Comprehensive Solutions</div>
+                                <div class="self-stretch justify-start text-slate-600 text-xs font-normal font-['Roboto'] leading-none">From supply to installation and after-sales support, we cover every aspect of your laboratory requirements.</div>
+                            </div>
+                        </div>
                     </div>
-                    <h2 class="text-lg text-primary font-semibold pb-2">Trusted Expertise</h2>
-                    <p class="text-xs text-gray-500">Over 20 years experience in providing <br> reliable scientific equipment and services <br> to Government Institutions, Universities and Industries.</p>
-                </div>
-                <div class="w-[280px] h-[188px] rounded-lg shadow-lg p-4">
-                    <div class="w-[44px] h-[44px] bg-primary/20 rounded-lg flex items-center justify-center mb-2">
-                        <img src="img/trusted.png" alt="trusted">
+                    <div class="w-72 px-6 py-4 bg-white rounded-[10px] shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-start items-start gap-5">
+                        <div class="self-stretch flex flex-col justify-start items-start gap-3">
+                            <div class="p-2.5 bg-teal-100 rounded-md inline-flex justify-start items-center gap-2.5">
+                                <div class="w-6 h-6 relative overflow-hidden">
+                                    <div class="w-5 h-5 left-[1.27px] top-[1.29px] absolute bg-teal-500"></div>
+                                </div>
+                            </div>
+                            <div class="self-stretch flex flex-col justify-start items-start gap-2">
+                                <div class="self-stretch justify-start text-teal-500 text-xl font-medium font-['Roboto'] leading-7">High-Quality Equipment</div>
+                                <div class="self-stretch justify-start text-slate-600 text-xs font-normal font-['Roboto'] leading-none">We offer a wide range of cutting-edge products, ensuring your lab operates at peak performance.</div>
+                            </div>
+                        </div>
                     </div>
-                    <h2 class="text-lg text-primary font-semibold pb-2">Trusted Expertise</h2>
-                    <p class="text-xs text-gray-500">Over 20 years experience in providing <br> reliable scientific equipment and services <br> to Government Institutions, Universities and Industries.</p>
                 </div>
-               
+                <div class="inline-flex justify-center items-center gap-6">
+                    <div class="w-72 px-6 py-4 bg-white rounded-[10px] shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-start items-start gap-5">
+                        <div class="self-stretch flex flex-col justify-start items-start gap-3">
+                            <div class="p-2.5 bg-teal-100 rounded-md inline-flex justify-start items-center gap-2.5">
+                                <div class="w-6 h-6 relative overflow-hidden">
+                                    <div class="w-6 h-6 left-[0.75px] top-[0.75px] absolute bg-teal-500"></div>
+                                </div>
+                            </div>
+                            <div class="self-stretch flex flex-col justify-start items-start gap-2">
+                                <div class="self-stretch justify-start text-teal-500 text-xl font-medium font-['Roboto'] leading-7">Tailored Support</div>
+                                <div class="self-stretch justify-start text-slate-600 text-xs font-normal font-['Roboto'] leading-none">Our proactive and customer-first approach guarantees personalized solutions, helping you achieve optimal results.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-72 px-6 py-4 bg-white rounded-[10px] shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-start items-start gap-5">
+                        <div class="self-stretch flex flex-col justify-start items-start gap-3">
+                            <div class="p-2.5 bg-teal-100 rounded-md inline-flex justify-start items-center gap-2.5">
+                                <div class="w-6 h-6 relative overflow-hidden">
+                                    <div class="w-6 h-6 left-[0.88px] top-[0.71px] absolute bg-teal-500"></div>
+                                </div>
+                            </div>
+                            <div class="self-stretch flex flex-col justify-start items-start gap-2">
+                                <div class="self-stretch justify-start text-teal-500 text-xl font-medium font-['Roboto'] leading-7">Long-Term Reliability</div>
+                                <div class="self-stretch justify-start text-slate-600 text-xs font-normal font-['Roboto'] leading-none">With our dedicated after-sales service, we ensure your equipment performs well for years to come.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="flex flex-wrap items-center justify-center pt-4 gap-4">
-                <div class="w-[280px] h-[188px] rounded-lg shadow-lg p-4">
-                    <div class="w-[44px] h-[44px] bg-primary/20 rounded-lg flex items-center justify-center mb-2">
-                        <img src="img/trusted.png" alt="trusted">
-                    </div>
-                    <h2 class="text-lg text-primary font-semibold pb-2">Trusted Expertise</h2>
-                    <p class="text-xs text-gray-500">Over 20 years experience in providing <br> reliable scientific equipment and services <br> to Government Institutions, Universities and Industries.</p>
-                </div>
-                <div class="w-[280px] h-[188px] rounded-lg shadow-lg p-4">
-                    <div class="w-[44px] h-[44px] bg-primary/20 rounded-lg flex items-center justify-center mb-2">
-                        <img src="img/trusted.png" alt="trusted">
-                    </div>
-                    <h2 class="text-lg text-primary font-semibold pb-2">Trusted Expertise</h2>
-                    <p class="text-xs text-gray-500">Over 20 years experience in providing <br> reliable scientific equipment and services <br> to Government Institutions, Universities and Industries.</p>
-                </div>
-            </div>
+        </div>
 
         </div>
      </section>
     <!-- Benefit Section End -->
 
     <!-- Start -->
-    <section id="achievment" class="pt-8 pb-8 bg-cover bg-center" style="background-image: url(img/vecteezy_indonesia-map-for-app-art-illustration-website-pictogram_18825780.png);">
-        <div class="max-w-full mx-auto h-[520px]">
-          <div class="flex flex-wrap px-4 p-4 justify-between pt-18">
-            <div class="w-full lg:w-1/2 px-16">
-              <h2 class="uppercase font-['Roboto'] text-primary text-xl font-medium pb-3">achievment at glance</h2>
-              <h1 class="font-['Roboto'] text-4xl font text-gray-700 pb-3">Our Edge <br>in Excellence</h1>
-              <p class="font-['Roboto'] text-sm/4 text-gray-700">At PT Era Mitra Perdana, our commitment to excellence has driven us to achieve remarkable <br> milestones. With over two decades of experience in the scientific and laboratory equipment <br> industry, we have built a reputation as a trusted partner for institutions, industries, and <br> research organizations.</p>
-              <hr class="my-0.5 border-t-2 border-gray-400 mr-20 mt-20">
-            </div>
-            <div class="w-full pl-17 lg:w-1/2 flex items-center justify-end"> 
-              <div class="w-full">
-              <div class="relative w-64 h-40 bg-gray-700 rounded-lg shadow-lg p-6">
-                <div class="absolute right-1 top-0 w-2 h-full rounded-r-lg bg-primary"></div>
-                <h1 class="text-3xl font-['Roboto'] text-white font-light">100+</h1>
-                <div class="absolute bottom-0">
-                <h2 class="uppercase text-xs text-white font-light font-['Roboto']">clients</h2>
-                <h4 class="uppercase text-xs text-white font-light font-['Roboto']">(GOVERMENTS, UNIVERSITIES & INDUSTRY)</h4>
+    <section class="bg-[url(/img/bg-ind.png)] bg-no-repeat bg-center bg-cover]">
+      <div class="container mx-auto py-[64px]">
+        <div class="w-[1440px] px-20 py-16 inline-flex justify-start items-start gap-16 overflow-hidden">
+          <div class="inline-flex flex-col justify-start items-start gap-16">
+              <div class="w-[455px] pb-16 border-b-2 border-stone-300 flex flex-col justify-start items-start gap-3">
+                  <div class="self-stretch justify-start text-teal-500 text-base font-normal font-['Roboto'] leading-normal">ACHIEVMENT AT GLANCE</div>
+                  <div class="self-stretch flex flex-col justify-start items-start gap-3">
+                      <div class="w-64 justify-start text-slate-600 text-4xl font-medium font-['Roboto'] leading-10">Our Edge<br/>in Excellence</div>
+                      <div class="self-stretch justify-start text-slate-600 text-xs font-medium font-['Roboto'] leading-none">At PT Era Mitra Perdana, our commitment to excellence has driven us to achieve remarkable milestones. With over two decades of experience in the scientific and laboratory equipment industry, we have built a reputation as a trusted partner for institutions, industries, and research organizations.</div>
+                  </div>
               </div>
+              <div data-property-1="Default" class="w-56 pl-3 pr-2.5 py-1 bg-teal-500 rounded-3xl shadow-[0px_8px_16px_0px_rgba(0,0,0,0.10)] inline-flex justify-start items-center gap-3">
+                  <div class="flex-1 justify-start text-white text-sm font-medium font-['Roboto'] leading-tight">Make an Appointment</div>
+                  <div class="p-2.5 bg-white rounded-3xl flex justify-start items-center gap-2.5">
+                      <div class="w-6 h-6 relative overflow-hidden">
+                          <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute outline outline-offset-[-1px] outline-zinc-800"></div>
+                      </div>
+                  </div>
               </div>
-            </div>
-              <div class="w-full flex flex-col items-center justify-center">
-                <div class="relative w-64 h-40 bg-gray-700 rounded-lg shadow-lg p-6">
-                  <div class="absolute right-1 top-0 w-2 h-full rounded-r-lg bg-primary"></div>
-                  <h1 class="text-3xl font-['Roboto'] text-white font-light">100+</h1>
-                  <div class="absolute bottom-0">
-                  <h2 class="uppercase text-xs text-white font-light font-['Roboto']">Products</h2>
-                  <h4 class="uppercase text-xs text-white font-light font-['Roboto']">high-quality</h4>
+          </div>
+          <div class="flex-1 flex justify-end items-center gap-16">
+              <div class="w-64 h-44 p-6 relative bg-slate-600 rounded-[10px] shadow-[0px_4px_2px_0px_rgba(0,0,0,0.12)] inline-flex flex-col justify-between items-start">
+                  <div class="self-stretch justify-start text-white text-3xl font-medium font-['Roboto'] leading-9">100+</div>
+                  <div class="self-stretch justify-start text-white text-xs font-medium font-['Roboto'] leading-none">CLIENTS <br/>(GOVERMENTS, UNIVERSITIES & INDUSTRY)</div>
+                  <div class="w-2 h-44 left-[244px] top-0 absolute bg-teal-500 rounded-tr-[10px] rounded-br-[10px]"></div>
+              </div>
+              <div class="w-64 inline-flex flex-col justify-start items-start gap-16">
+                  <div class="w-64 h-44 p-6 relative bg-slate-600 rounded-[10px] shadow-[0px_4px_2px_0px_rgba(0,0,0,0.12)] flex flex-col justify-between items-start">
+                      <div class="self-stretch justify-start text-white text-3xl font-medium font-['Roboto'] leading-9">100+</div>
+                      <div class="self-stretch justify-start text-white text-xs font-medium font-['Roboto'] leading-none">PRODUCT<br/>HIGH-QUALITY</div>
+                      <div class="w-2 h-44 left-[242px] top-0 absolute bg-teal-500 rounded-tr-[10px] rounded-br-[10px]"></div>
+                  </div>
+                  <div class="self-stretch h-44 p-6 relative bg-slate-600 rounded-[10px] shadow-[0px_4px_2px_0px_rgba(0,0,0,0.12)] flex flex-col justify-between items-start">
+                      <div class="self-stretch justify-start text-white text-3xl font-medium font-['Roboto'] leading-9">20+</div>
+                      <div class="self-stretch justify-start text-white text-xs font-medium font-['Roboto'] leading-none">YEAR<br/>EXPERIENCE</div>
+                      <div class="w-2 h-44 left-[244px] top-0 absolute bg-teal-500 rounded-tr-[10px] rounded-br-[10px]"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      </div>
+    </section>
+    <!-- End -->
+
+    <!-- Footer -->
+    <footer class="mt-[128px]">
+      <div class="container mx-auto">
+        <div
+          data-property-1="3"
+          class="w-full h-96 p-16 bg-teal-500 inline-flex flex-col justify-between items-center overflow-hidden"
+        >
+          <div class="self-stretch inline-flex justify-start items-start gap-8">
+            <div class="inline-flex flex-col justify-start items-start gap-8">
+              <div class="flex flex-col justify-start items-start gap-3">
+                <img
+                  class="w-64 h-8"
+                  src="img/Primary Logo (White) 1.png"
+                  alt="emp-logo"
+                />
+                <div class="inline-flex justify-start items-center gap-3">
+                  <img
+                    class="w-14 h-14"
+                    src="img/image 48.png"
+                    alt="iso-logo"
+                  />
+                  <img
+                    class="w-16 h-12"
+                    src="img/image 46.png"
+                    alt="iaf-logo"
+                  />
                 </div>
               </div>
-                <div class="relative w-64 h-40 bg-gray-700 rounded-lg shadow-lg p-6 mt-16">
-                  <div class="absolute right-1 top-0 w-2 h-full rounded-r-lg bg-primary"></div>
-                  <h1 class="text-3xl font-['Roboto'] text-white font-light">20+</h1>
-                  <div class="absolute bottom-0">
-                  <h2 class="uppercase text-xs text-white font-light font-['Roboto']">year</h2>
-                  <h4 class="uppercase text-xs text-white font-light font-['Roboto']">experience</h4>
+              <img
+                class="w-48 h-14"
+                src="img/inaproce white 1.png"
+                alt="inaproc-logo"
+              />
+            </div>
+            <div class="w-[556px] flex justify-start items-start gap-6">
+              <div
+                class="flex-1 inline-flex flex-col justify-start items-start gap-3"
+              >
+                <div
+                  class="self-stretch flex flex-col justify-start items-start gap-6"
+                >
+                  <div
+                    class="self-stretch justify-start text-white text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Head Office - Jakarta
+                  </div>
+                  <div
+                    class="self-stretch justify-start text-white text-xs font-normal font-['Roboto'] leading-none"
+                  >
+                    Ruko Buaran Persada, No.31<br />Jl. Jend. Pol. R. Soekamto,
+                    Duren Sawit.<br />Jakarta Timur 13450
+                  </div>
                 </div>
+                <div
+                  class="self-stretch flex flex-col justify-start items-start gap-3"
+                >
+                  <div
+                    class="self-stretch inline-flex justify-start items-center gap-3"
+                  >
+                    <div class="w-4 h-4 flex justify-center items-center">
+                      <i class="fa-solid fa-phone text-white text-sm/8"></i>
+                    </div>
+
+                    <div
+                      class="justify-start text-white text-xs font-normal font-['Roboto'] leading-none"
+                    >
+                      +62-21-86612458 (Fax: +62-21-86612365)
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch inline-flex justify-start items-center gap-3"
+                  >
+                    <div class="w-4 h-4 flex justify-center items-center">
+                      <i class="fa-solid fa-envelope text-white text-sm/8"></i>
+                    </div>
+                    <div
+                      class="justify-start text-white text-xs font-normal font-['Roboto'] leading-none"
+                    >
+                      sales@eramitra.com
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex-1 inline-flex flex-col justify-start items-start gap-3"
+              >
+                <div
+                  class="self-stretch flex flex-col justify-start items-start gap-6"
+                >
+                  <div
+                    class="self-stretch justify-start text-white text-xl font-medium font-['Roboto'] leading-7"
+                  >
+                    Branch Office - Surabaya
+                  </div>
+                  <div
+                    class="self-stretch justify-start text-white text-xs font-normal font-['Roboto'] leading-none"
+                  >
+                    Jl. Kebon Sari V No. 7G - Surabaya
+                  </div>
+                </div>
+                <div
+                  class="self-stretch flex flex-col justify-start items-start gap-3"
+                >
+                  <div
+                    class="self-stretch inline-flex justify-start items-center gap-3"
+                  >
+                    <div class="w-4 h-4 flex justify-center items-center">
+                      <i class="fa-solid fa-phone text-white text-sm/8"></i>
+                    </div>
+
+                    <div
+                      class="justify-start text-white text-xs font-normal font-['Roboto'] leading-none"
+                    >
+                      +62-31-8298235 (Fax: +62-31-8298235)
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch inline-flex justify-start items-center gap-3"
+                  >
+                    <div class="w-4 h-4 flex items-center justify-center">
+                      <i class="fa-solid fa-envelope text-white text-sm"></i>
+                    </div>
+
+                    <div
+                      class="text-white text-xs font-normal font-['Roboto'] leading-none"
+                    >
+                      emp.sby@eramitra.com
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex-1 flex justify-start items-start gap-6 overflow-hidden"
+            >
+              <div
+                class="flex-1 inline-flex flex-col justify-start items-start"
+              >
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    <a href="index.html"> Home </a>
+                  </div>
+                </div>
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                  <a href="brands.html">
+                    Brand
+                  </a>
+                  </div>
+                </div>
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    Industry
+                  </div>
+                </div>
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    Application
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex-1 inline-flex flex-col justify-start items-start"
+              >
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    <a href="about.html"> About Us </a>
+                  </div>
+                </div>
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    <a href="news&info.html"> News & Info </a>
+                  </div>
+                </div>
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    <a href="career.html"> Career </a>
+                  </div>
+                </div>
+                <div class="w-44 py-2 inline-flex justify-start items-start">
+                  <div
+                    class="flex-1 justify-start text-white text-sm font-semibold font-['Roboto'] leading-tight"
+                  >
+                    <a href="contact.html"> Contact Us </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-start items-start gap-3">
+              <div class="w-10 h-10 relative overflow-hidden">
+                <div
+                  class="w-7 h-7 left-[5px] top-[5.40px] absolute"
+                >
+                <i class="fa-brands fa-instagram text-white text-3xl"></i>
+              </div>
+              </div>
+              <div class="w-10 h-10 relative overflow-hidden">
+                <div
+                  class="w-7 h-7 left-[5px] top-[5.40px] absolute"
+                >
+                <i class="fa-brands fa-linkedin text-white text-3xl"></i>
               </div>
               </div>
             </div>
           </div>
-        </div>      
-       </section>
-    <!-- End -->
-
+          <div
+            class="self-stretch flex flex-col justify-center items-center gap-8"
+          >
+            <div class="self-stretch h-px bg-white"></div>
+            <div
+              class="self-stretch inline-flex justify-center items-center gap-8"
+            >
+              <div class="flex-1 flex justify-between items-start">
+                <div
+                  class="flex-1 text-center justify-start text-white text-sm font-normal font-['Roboto'] leading-tight"
+                >
+                  © 2025 PT Era Mitra Perdana. All rights reserved.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
  <!-- feather icon -->
  <script>
