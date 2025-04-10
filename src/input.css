@@ -27,12 +27,16 @@ body {
     @apply bg-white p-0.5 rounded-full shadow-md;
   }
 
-  .inner-industry a {
-    @apply bg-white flex items-center lg:mx-5 my-7 gap-1 rounded-md font-semibold text-black text-lg italic cursor-pointer shadow-md hover:bg-primary hover:text-white hover:scale-x-105 hover:scale-y-110 transition origin-left scale-x-100 duration-200 ease-in-out;
+  .industry a {
+    @apply flex items-center gap-[8px] font-medium text-gray-900 leading-7 py-[8px] px-[12px];
   }
 
-  .inner-industry span {
-    @apply bg-white p-1.5 rounded-full shadow-md;
+  .industry span {
+    @apply w-[44px] h-[44px] flex items-center justify-center p-0.5 rounded-full bg-white shadow-md;
+  }
+
+  .inner-industry {
+    @apply w-[205px] h-[60px] py-[18px] px-[12px] gap-[12px] flex items-center justify-start my-[16px];
   }
 
   .inner-application a {
